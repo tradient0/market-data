@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Remove .json extension from URLs
+RewriteCond %{REQUEST_FILENAME}.json -f
+RewriteRule ^(.*)$ $1.json [L]
