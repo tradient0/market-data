@@ -1,0 +1,40 @@
+name: Fetch ETF Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch-etf-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Fetch ETF Data
+      run: |
+        mkdir -p "etf"
+        curl --location 'https://www.nseindia.com/api/etf' \
+          --header 'accept: */*' \
+          --header 'accept-language: en-US,en;q=0.9,hi;q=0.8,ta;q=0.7' \
+          --header 'cache-control: no-cache' \
+          --header 'cookie: YOUR_COOKIE_HERE' \
+          --header 'pragma: no-cache' \
+          --header 'priority: u=1, i' \
+          --header 'referer: https://www.nseindia.com/market-data/exchange-traded-funds-etf' \
+          --header 'sec-ch-ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"' \
+          --header 'sec-ch-ua-mobile: ?0' \
+          --header 'sec-ch-ua-platform: "Windows"' \
+          --header 'sec-fetch-dest: empty' \
+          --header 'sec-fetch-mode: cors' \
+          --header 'sec-fetch-site: same-origin' \
+          --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+          -o "etf/index.json"
+
+    - name: Commit and Push Data
+      run: |
+        git config --local user.name "github-actions"
+        git config --local user.email "github-actions@github.com"
+        git add "etf/index.json"
+        git commit -m "Update ETF data"
+        git push
