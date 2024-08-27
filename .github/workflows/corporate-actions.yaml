@@ -1,0 +1,42 @@
+name: Fetch Corporate Actions Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch-corporate-actions:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Fetch Corporate Actions Data
+      run: |
+        TODAY=$(date +'%d-%m-%Y')
+        SEVENTH_DAY=$(date -d '+7 days' +'%d-%m-%Y')
+        mkdir -p "corporate-actions"
+        curl --location "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=$TODAY&to_date=$SEVENTH_DAY" \
+          --header 'accept: */*' \
+          --header 'accept-language: en-US,en;q=0.9,hi;q=0.8,ta;q=0.7' \
+          --header 'cache-control: no-cache' \
+          --header 'cookie: _ga=GA1.1.482592878.1723464796; RT="z=1&dm=nseindia.com&si=5fd1e2ae-9fa0-4a5b-a0a1-143f247336d0&ss=m0bakplh&sl=1&se=8c&tt=6jx&bcn=%2F%2F684dd313.akstat.io%2F&ld=701&ul=831&hd=84v"; _ga_87M7PJ3R97=GS1.1.1724694507.7.1.1724694511.56.0.0; AKA_A2=A; _abck=A2F2C7BE639605F40900B55F79849635~0~YAAQj88uF3f00YCRAQAAKP9ZlAygqwL7ezHJDHM+L6x20ujjddFZhygzNPFqhp/6SUZ724v9eHn9aR87OGGeduuIP7qDrXYg7lk7TGYiVAZm4u7Gs334CtBCh2XAuZsJA6rEnWlpDheb/t6qL5y/16xZOSy1N4cWJsTJeV+TZeUH0ArFo1DZNzSgvKJ+T6+d5E0rrc16XN4JEYudtzCdEoqVYGdOaxg07A1kczzLTpe7S9s3yQ1SthOtxSmaqtm8ZecDyyg8M9d1NaZfrYnAdILAex6cgjPOzIJf9053gMDw9lo9hvENI7UPfcaiN47UJddSKTK4ouMdhHzWCqJZljuEDFGexmSzwq5WC25KvQO6emOMnqZMGiYZz2op1M9fm9pTWShOicp8UH0M7tNhsy6Ra2uqO/+4GlE=~-1~-1~-1; defaultLang=en; nseQuoteSymbols=[{"symbol":"JKPAPER","identifier":null,"type":"equity"}]; nsit=RLD4IvHs-fMc-Yuu59WS_G6T; nseappid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcGkubnNlIiwiYXVkIjoiYXBpLm5zZSIsImlhdCI6MTcyNDc3MTYzOCwiZXhwIjoxNzI0Nzc4ODM4fQ.ODBRvapaxvdLH9tw99vA6FskRB8PzfROg_3y922RcCc; bm_mi=D00179F955E5BACC6828C9ED505EB186~YAAQds8uFxAKcY+RAQAAlJxmlBiyUCeMqo2350wGJ4+6Uhmmciid/fknbnoHk3Yk2OVJSEIlEEl2QY5md5eQQFdD2D1gvQSlMAA9QpzKmojSmFwOD6p/+1mvFUhiZ9Ms2NLvZcdSma85mlojrdeMabDmvm7PtoKKlYf9QftkPoGQEzb7uf/JK4Bs8WaHGJgv3/wujlX6FDnbOZ5w3njTSmtDHy/r2QdzbZ/eSzUZf5n/k1k9Ex0+Jmp5APN7IvZ2sOZJ9a1pxygYmXRDPr1gzR+pz51nTxq/zeKWKq3YUzcxy6s2JnlOTWReDmQ4k/2ETF5ycgQAa2cG2wCswO/hWlfc/EH99WyGlxNZNDxpa8+oW6TEe38M~1; bm_sz=85E78D6C7A3BDE1B12E31C056BC1D94C~YAAQds8uFxIKcY+RAQAAlJxmlBjHXIKKp1cPlEFdN/l56UriiBA82HxudlOtJH/g3JLeqawO96O1X2+tkm1C364+IK4ffHc1pnvkAAkOkariAr21qmlrIuoIhWyp0lDD6VoU6v212eXAiUGGExXCC+TYLLQ7yPOBkRfj9EQxSEBARn/152VC7RE8gdnYEK47OEnqtPf8pF6iMKtK1sfpJMhp4AB3LkHzJAyFJJ/p8EPd3jdT9G8c2bu7cc7I0WSb0OLbjNE7xeonTyjGARXUe0wsddRHoIZY5wNlQpZM8fdtyrM/Zwfi6fWlKy93d+rUSky8XppAkv+bHEl9PGTh8tPTlscZlsiA83rsPa22LiO/CPjfaAilgj9PB9fvYKO108alF0xEIMIHdlZXBB3hzoyQ10cjNjs1iRSDxGs34A0dv3SQADIFpaiWnA==~4539952~4277569; bm_sv=4F0BC3D44CF6087E632C0A235C5B52B7~YAAQjM8uF6qKY4KRAQAA2b9mlBg4cqnQxQWgeoq0GI4BQ2Ilc89T+NcV9ACysTCeTU5Wq2UACf9sC0sfe8iIDvfh7y8qheN8eVprUTbpHZ4npsl8h5P/3ytJ4baLPFpnAWKFzFPeIX9wVLS8w0VztLuE2YpBeOuEzoJIrHSvl0KX7FfyNHulWN1LY5/noVvkMamnCo0clqwA/7sft1k1LII5dDC9gzQQX5pHLNXOpG8NEyZef3OZFWVZxQu9zv8StQLKvQ==~1; ak_bmsc=02FE5E47E4F36EE5C1C9BE8DB1F04E8E~000000000000000000000000000000~YAAQjc8uF5Emy4KRAQAAbt1mlBgeNgj0ou3b2T9leX0ifYtZWD4f5ypw9UtS8dUuAnuHAqigf9m90rVo78Omxd8rGTzMznpvciFp6NVa4oHgi6eJsgwxMIc+hs6sSCYxOcM3JcgVBJ6kM0zANREWPpdonE9TCmJzQcpTR3+FZmQPOTtwPHvSAjOvm27sr1nFXfNGPxQ3wZQGS22YiUI6SuSOOAzIgioyhzPFSjc4L8SLvIdZwnHdoFSkLtkqQBO9ulvf92zPC7ZQH5ISwaEPVEWuFGbbaHhsCxlJ89Q+8wYvNzduwE5RsyNwMT0hL3koV+gFCT4G5EcEFxKGMs9lhMcGnhoIPXjHWAUidGZcWEL8w9CSNs6oN7mN5UZYf3lVhFoavX+8GZN1JpKvvfisAh8boe3qyxFa7z7pZYu8il8+c6D4PUarc9NpUjU/Imp8xcJOGDOHD3hKtHe/mtLL1myVseQ2ehjxF4IhqZk=; _abck=A2F2C7BE639605F40900B55F79849635~-1~YAAQj88uF/Il1YCRAQAAqT9olAxaSWkDNYJoHStkOhpSE7TOwkAJxT0gDxdPV3CU8JKXZIuRtCUI82dybSGGuWuzydkrxGt/moGwMuQSD3Ios89oLn+nHGOVFzLOAfUQKBPurL6cGTbg2HdPs2Tb0LitW1whxUKRlDXil1MTyZifdyh6oPf9Enn6fkBdUoF41sYjacyiPPH7p3WTD5Mwl6U06tQ+n+3K7jjFTUgD0+A86+98Xb52OHQZGjY9r54qOxMXVPmjuX0fs6tvqsYX5Z7ycaQVL6B8nULce+AYNDtN7omrB/nv89M8kFS8DXJIhRNLDckRE3onWtVGfFuVhc0UkKElFhp3MsEtD51Gp6nvW9bB6vwMe9LBArgbznnqe2RXFzoA+2ggtVwu4btQQ5crX81BgbliQY8=~0~-1~-1' \
+          --header 'pragma: no-cache' \
+          --header 'priority: u=1, i' \
+          --header 'referer: https://www.nseindia.com/companies-listing/corporate-filings-actions' \
+          --header 'sec-ch-ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"' \
+          --header 'sec-ch-ua-mobile: ?0' \
+          --header 'sec-ch-ua-platform: "Windows"' \
+          --header 'sec-fetch-dest: empty' \
+          --header 'sec-fetch-mode: cors' \
+          --header 'sec-fetch-site: same-origin' \
+          --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+          -o "corporate-actions/index.json"
+
+    - name: Commit and Push Data
+      run: |
+        git config --local user.name "github-actions"
+        git config --local user.email "github-actions@github.com"
+        git add "corporate-actions/index.json"
+        git commit -m "Update Corporate Actions data"
+        git push
