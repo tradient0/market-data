@@ -26,6 +26,6 @@ jobs:
 
     - name: Store Cookies as a GitHub Secret
       run: |
-        echo "${{ env.COOKIES }}" | gh secret set NSE_COOKIES --body -
+        echo "${{ env.COOKIES }}" | gh secret set CORPORATE_ACTION_NSE_COOKIES --body -
       env:
         GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
