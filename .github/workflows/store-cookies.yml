@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '0 * * * *'  # Adjust as needed; this runs every hour
 
+permissions:
+  contents: read
+  actions: write  # Ensure the workflow can write to secrets
+
 jobs:
   fetch-cookies:
     runs-on: ubuntu-latest
