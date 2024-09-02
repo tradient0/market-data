@@ -17,53 +17,43 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
-        node-version: '16'
+        python-version: '3.x'
 
-    - name: Install Puppeteer
-      run: npm install puppeteer
-
-    - name: Fetch Cookies with Puppeteer
-      id: fetch_cookies
+    - name: Fetch and Store Cookies
       run: |
-        # Inline Node.js script to fetch cookies
-        cat << 'EOF' > fetchCookies.js
-        const puppeteer = require('puppeteer');
+        python - <<'EOF'
+        import requests
+        import os
 
-        (async () => {
-            const browser = await puppeteer.launch({ headless: true });
-            const page = await browser.newPage();
+        # URL to fetch cookies from
+        url = 'https://www.nseindia.com/companies-listing/corporate-filings-actions'
 
-            // Navigate to the page
-            await page.goto('https://www.nseindia.com/companies-listing/corporate-filings-actions');
+        # Create a session object to persist the cookies
+        session = requests.Session()
 
-            // Wait for the page to load (adjust as needed)
-            await page.waitForTimeout(5000);
+        # Send a GET request to the NSE website
+        response = session.get(url)
 
-            // Get cookies from the page
-            const cookies = await page.cookies();
+        # Check if the request was successful
+        if response.status_code == 200:
+            # Get cookies from the response
+            cookies = session.cookies.get_dict()
 
-            // Format cookies as a single string
-            const cookieString = cookies.map(cookie => `${cookie.name}=${cookie.value}`).join('; ');
+            # Format cookies as a single string
+            cookie_string = '; '.join([f"{name}={value}" for name, value in cookies.items()])
 
-            console.log(cookieString);
-
-            await browser.close();
-        })();
+            # Output the cookies to the GitHub Actions environment
+            print(f"::set-output name=cookies::{cookie_string}")
+        else:
+            print(f"Failed to fetch cookies. Status code: {response.status_code}")
+            exit(1)
         EOF
-
-        # Run the Node.js script and capture the cookies
-        node fetchCookies.js | tee cookies.txt
-        COOKIES=$(cat cookies.txt)
-        echo "COOKIES=$COOKIES" >> $GITHUB_ENV
-
-    - name: Echo Cookies
-      run: echo "Fetched Cookies: ${{ env.COOKIES }}"
 
     - name: Store Cookies as a GitHub Secret
       run: |
-        echo "${{ env.COOKIES }}" | gh secret set CORPORATE_ACTION_NSE_COOKIES --body -
+        echo "${{ steps.fetch-cookies.outputs.cookies }}" | gh secret set CORPORATE_ACTION_NSE_COOKIES --body -
       env:
         GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
