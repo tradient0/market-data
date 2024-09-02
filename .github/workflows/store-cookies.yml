@@ -6,8 +6,10 @@ on:
     - cron: '0 * * * *'  # Adjust as needed; this runs every hour
 
 permissions:
+  id-token: write
   contents: read
-  actions: write  # Ensure the workflow can write to secrets
+  issues: write
+  pull-requests: write  # Ensure the workflow can write to secrets
 
 jobs:
   fetch-cookies:
