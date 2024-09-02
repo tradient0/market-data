@@ -6,10 +6,8 @@ on:
     - cron: '0 * * * *'  # Adjust as needed; this runs every hour
 
 permissions:
-  id-token: write
   contents: read
-  issues: write
-  pull-requests: write  # Ensure the workflow can write to secrets
+  actions: write  # Ensure the workflow can write to secrets
 
 jobs:
   fetch-cookies:
@@ -30,4 +28,4 @@ jobs:
       run: |
         echo "${{ env.COOKIES }}" | gh secret set NSE_COOKIES --body -
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
