@@ -1,0 +1,27 @@
+name: Store NSE Cookies
+
+on:
+  workflow_dispatch: # Allows the workflow to be manually triggered via a button in the GitHub Actions UI
+  schedule:
+    - cron: '0 * * * *'  # Adjust as needed; this runs every hour
+
+jobs:
+  fetch-cookies:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Fetch Cookies
+      id: fetch_cookies
+      run: |
+        # Fetch the URL and store the cookies
+        COOKIES=$(curl -c - -s -I https://www.nseindia.com/companies-listing/corporate-filings-actions | grep 'Set-Cookie' | awk '{print $2}')
+        echo "COOKIES=$COOKIES" >> $GITHUB_ENV
+
+    - name: Store Cookies as a GitHub Secret
+      run: |
+        echo "${{ env.COOKIES }}" | gh secret set NSE_COOKIES --body -
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
