@@ -14,14 +14,49 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Fetch Cookies
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install Puppeteer
+      run: npm install puppeteer
+
+    - name: Fetch Cookies with Puppeteer
       id: fetch_cookies
       run: |
-        # Fetch the URL and store the cookies
-        COOKIES=$(curl -c - -s -I https://www.nseindia.com/companies-listing/corporate-filings-actions | grep 'Set-Cookie' | awk '{print $2}')
+        # Inline Node.js script to fetch cookies
+        cat << 'EOF' > fetchCookies.js
+        const puppeteer = require('puppeteer');
+
+        (async () => {
+            const browser = await puppeteer.launch({ headless: true });
+            const page = await browser.newPage();
+
+            // Navigate to the page
+            await page.goto('https://www.nseindia.com/companies-listing/corporate-filings-actions');
+
+            // Wait for the page to load (adjust as needed)
+            await page.waitForTimeout(5000);
+
+            // Get cookies from the page
+            const cookies = await page.cookies();
+
+            // Format cookies as a single string
+            const cookieString = cookies.map(cookie => \`\${cookie.name}=\${cookie.value}\`).join('; ');
+
+            console.log(cookieString);
+
+            await browser.close();
+        })();
+        EOF
+
+        # Run the Node.js script and capture the cookies
+        node fetchCookies.js | tee cookies.txt
+        COOKIES=$(cat cookies.txt)
         echo "COOKIES=$COOKIES" >> $GITHUB_ENV
 
     - name: Store Cookies as a GitHub Secret
