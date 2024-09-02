@@ -46,7 +46,7 @@ jobs:
             const cookies = await page.cookies();
 
             // Format cookies as a single string
-            const cookieString = cookies.map(cookie => \`\${cookie.name}=\${cookie.value}\`).join('; ');
+            const cookieString = cookies.map(cookie => `${cookie.name}=${cookie.value}`).join('; ');
 
             console.log(cookieString);
 
@@ -58,6 +58,9 @@ jobs:
         node fetchCookies.js | tee cookies.txt
         COOKIES=$(cat cookies.txt)
         echo "COOKIES=$COOKIES" >> $GITHUB_ENV
+
+    - name: Echo Cookies
+      run: echo "Fetched Cookies: ${{ env.COOKIES }}"
 
     - name: Store Cookies as a GitHub Secret
       run: |
