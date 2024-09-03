@@ -29,6 +29,20 @@ jobs:
     - name: Fetch and Store Cookies
       run: python py/fetch_cookies.py
 
+    - name: Write Cookies to File
+      run: |
+        echo "${{ steps.fetch-cookies.outputs.cookies }}" > cookies.txt
+
+    - name: Commit Cookies File
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add cookies.txt
+        git commit -m "Add cookies.txt for debugging"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Store Cookies as a GitHub Secret
       run: |
         echo "${{ steps.fetch-cookies.outputs.cookies }}" | gh secret set CORPORATE_ACTION_NSE_COOKIES --body -
