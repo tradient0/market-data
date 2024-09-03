@@ -24,15 +24,16 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install selenium webdriver-manager requests
+        pip install selenium webdriver-manager
 
     - name: Fetch and Display Cookies
+      id: fetch-cookies
       run: |
         cookies=$(python py/fetch_cookies.py)
         echo "Cookies: $cookies"
 
     - name: Store Cookies as a GitHub Secret
       run: |
-        echo "$cookies" | gh secret set CORPORATE_ACTION_NSE_COOKIES --body -
+        echo "${{ steps.fetch-cookies.outputs.cookies }}" | gh secret set CORPORATE_ACTION_NSE_COOKIES --body -
       env:
         GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
