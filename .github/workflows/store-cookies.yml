@@ -23,7 +23,7 @@ jobs:
         node-version: '16.x'  # Adjust Node.js version if needed
 
     - name: Install Dependencies
-      run: npm install axios tough-cookie axios-cookiejar-support
+      run: npm install axios tough-cookie axios-cookiejar-support axios-retry
 
     - name: Fetch and Display Cookies
       id: fetch-cookies
