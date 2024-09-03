@@ -38,7 +38,9 @@ jobs:
           sudo Xvfb :99 -ac &
           python script/selenium_script.py > cookies_output.txt
 
-      - name: Store Cookies as Environment Variable
+      - name: Update Repository Variable
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }} # The PAT token stored in secrets with 'repo' scope
         run: |
           # Read the cookies from the output file
           COOKIES=$(cat cookies_output.txt)
@@ -48,6 +50,11 @@ jobs:
             echo "Error: Cookies not captured."
             exit 1
           fi
-          
-          # Export the cookies as an environment variable
-          echo "CORPORATE_ACTION_NSE_COOKIES=$COOKIES" >> $GITHUB_ENV
+
+          # Update the repository variable using GitHub API
+          curl -X PATCH \
+            -H "Authorization: token $PAT_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "Content-Type: application/json" \
+            -d "{\"name\":\"CORPORATE_ACTION_NSE_COOKIES\",\"value\":\"$COOKIES\"}" \
+            https://api.github.com/repos/${{ github.repository }}/actions/variables/CORPORATE_ACTION_NSE_COOKIES
