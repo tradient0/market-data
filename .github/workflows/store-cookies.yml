@@ -1,38 +1,62 @@
-name: Store NSE Cookies
+name: Get Cookies and Store in Secrets
 
 on:
-  workflow_dispatch: # Allows the workflow to be manually triggered via a button in the GitHub Actions UI
-  schedule:
-    - cron: '0 * * * *'  # Adjust as needed; this runs every hour
-
-permissions:
-  contents: read
-  actions: write  # Ensure the workflow can write to secrets
+  workflow_dispatch: # This allows you to manually trigger the workflow
 
 jobs:
-  fetch-cookies:
+  get-cookies:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
+    - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16.x'  # Adjust Node.js version if needed
+        node-version: '16' # or any preferred version
 
-    - name: Install Dependencies
-      run: npm install axios tough-cookie axios-cookiejar-support axios-retry
+    - name: Install Puppeteer
+      run: npm install puppeteer
 
-    - name: Fetch and Display Cookies
-      id: fetch-cookies
+    - name: Get Cookies
+      id: get_cookies
       run: |
-        cookies=$(node automation/fetch_cookies.js)
-        echo "Cookies: $cookies"
+        const puppeteer = require('puppeteer');
 
-    - name: Store Cookies as a GitHub Secret
-      run: |
-        echo "${{ steps.fetch-cookies.outputs.cookies }}" | gh secret set CORPORATE_ACTION_NSE_COOKIES --body -
+        (async () => {
+          const browser = await puppeteer.launch({ headless: true });
+          const page = await browser.newPage();
+          
+          // Set user agent and headers
+          await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36');
+          await page.setExtraHTTPHeaders({
+            'Accept-Language': 'en-US,en;q=0.9'
+          });
+
+          // Navigate to the NSE India Corporate Actions page
+          await page.goto('https://www.nseindia.com/companies-listing/corporate-filings-actions');
+
+          // Wait for the page to fully load
+          await page.waitForTimeout(5000); // Adjust timeout as necessary
+
+          // Get all cookies
+          const cookies = await page.cookies();
+          const cookiesString = JSON.stringify(cookies);
+
+          await browser.close();
+
+          // Set output for GitHub Action
+          console.log(`::set-output name=cookies::${cookiesString}`);
+        })();
+      shell: node
+
+    - name: Store Cookies in GitHub Secrets
       env:
-        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        PAT_TOKEN: ${{ secrets.PAT_TOKEN }} # The PAT token stored in secrets
+      run: |
+        curl -X PUT \
+          -H "Authorization: token $PAT_TOKEN" \
+          -H "Content-Type: application/json" \
+          -d "{\"encrypted_value\":\"${{ steps.get_cookies.outputs.cookies }}\",\"key_id\":\"$(curl -s -H \"Authorization: token $PAT_TOKEN\" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key_id)\"}" \
+          https://api.github.com/repos/${{ github.repository }}/actions/secrets/CORPORATE_ACTION_NSE_COOKIES
