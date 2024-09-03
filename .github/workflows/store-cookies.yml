@@ -24,7 +24,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install selenium webdriver-manager
+        pip install selenium webdriver-manager requests
 
     - name: Fetch and Store Cookies
       run: python py/fetch_cookies.py
