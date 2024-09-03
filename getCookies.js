@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({ headless: "new" }); // Use the new headless mode
   const page = await browser.newPage();
   
   // Set user agent and headers
@@ -10,17 +10,19 @@ const puppeteer = require('puppeteer');
     'Accept-Language': 'en-US,en;q=0.9'
   });
 
+  // Capture request cookies
+  await page.setRequestInterception(true);
+  page.on('request', interceptedRequest => {
+    const cookies = interceptedRequest.headers()['cookie'];
+    console.log(cookies);
+    interceptedRequest.continue();
+  });
+
   // Navigate to the NSE India Corporate Actions page
   await page.goto('https://www.nseindia.com/companies-listing/corporate-filings-actions');
 
   // Wait for the page to fully load
   await page.waitForTimeout(5000); // Adjust timeout as necessary
 
-  // Get all cookies
-  const cookies = await page.cookies();
-  const cookiesString = JSON.stringify(cookies);
-
   await browser.close();
-
-  console.log(cookiesString);
 })();
