@@ -26,7 +26,7 @@ jobs:
       run: |
         pip install selenium webdriver-manager requests
 
-    - name: Fetch and Store Cookies
+    - name: Fetch and Display Cookies
       run: |
         cookies=$(python py/fetch_cookies.py)
         echo "Cookies: $cookies"

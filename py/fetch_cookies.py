@@ -1,7 +1,6 @@
 import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
 
 # Set up Chrome options
 chrome_options = Options()
@@ -30,11 +29,8 @@ cookies_dict = {cookie['name']: cookie['value'] for cookie in cookies}
 # Format cookies as a single string
 cookie_string = '; '.join([f"{name}={value}" for name, value in cookies_dict.items()])
 
-# Save cookies to an environment variable
-os.environ['COOKIES'] = cookie_string
-
-# Print the cookies string to set the output in GitHub Actions
-print(f"::set-output name=cookies::{cookie_string}")
+# Print the cookies string to standard output
+print(cookie_string)
 
 # Clean up and close the browser
 driver.quit()
