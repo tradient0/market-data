@@ -1,4 +1,4 @@
-name: 52 Week High
+name: 52 Week low
 
 on:
   workflow_dispatch:  # Manual trigger via a button
@@ -8,27 +8,27 @@ on:
     - cron: '30 15 * * *'   # 3:30 PM
 
 jobs:
-  fetch-52-week-high:
+  fetch-52-week-low:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Fetch 52 Week High Data
+    - name: Fetch 52 Week low Data
       run: |
         # Read the cookie value from the file
         COOKIES=$(cat cookies/NSE_COOKIES.txt | sed 's/cookies=//')
 
-        mkdir -p "market/52-week-high"
-        curl --location 'https://www.nseindia.com/api/live-analysis-data-52weekhighstock' \
+        mkdir -p "market/52-week-low"
+        curl --location 'https://www.nseindia.com/api/live-analysis-data-52weeklowstock' \
           --header 'accept: */*' \
           --header 'accept-language: en-US,en;q=0.9,hi;q=0.8,ta;q=0.7' \
           --header 'cache-control: no-cache' \
           --header 'pragma: no-cache' \
           --header "cookie: $COOKIES" \
           --header 'priority: u=1, i' \
-          --header 'referer: https://www.nseindia.com/market-data/52-week-high-equity-market' \
+          --header 'referer: https://www.nseindia.com/market-data/52-week-low-equity-market' \
           --header 'sec-ch-ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"' \
           --header 'sec-ch-ua-mobile: ?0' \
           --header 'sec-ch-ua-platform: "Windows"' \
@@ -36,12 +36,12 @@ jobs:
           --header 'sec-fetch-mode: cors' \
           --header 'sec-fetch-site: same-origin' \
           --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
-          -o "market/52-week-high/index.json"
+          -o "market/52-week-low/index.json"
 
     - name: Commit and Push Data
       run: |
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"
-        git add "market/52-week-high/index.json"
-        git commit -m "Update 52 Week High data"
+        git add "market/52-week-low/index.json"
+        git commit -m "Update 52 Week low data"
         git push
