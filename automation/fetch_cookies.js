@@ -7,7 +7,7 @@ const axiosRetry = require('axios-retry');
   const cookieJar = new tough.CookieJar();
   const client = wrapper(axios.create({ jar: cookieJar, withCredentials: true }));
 
-  // Retry failed requests up to 3 times
+  // Set up retry logic
   axiosRetry(client, { retries: 3, retryDelay: axiosRetry.exponentialDelay });
 
   try {
