@@ -1,7 +1,10 @@
 name: Fetch Corporate Actions Data
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Manual trigger via a button
+  schedule:           # Auto trigger every day at 1:00 AM
+    - cron: '0 1 * * *'
+
 
 jobs:
   fetch-corporate-actions:
