@@ -44,7 +44,7 @@ jobs:
           mkdir -p cookies
           
           # Move the cookies output to the cookies directory
-          mv cookies_output.txt cookies/CORPORATE_ACTION_NSE_COOKIES.txt
+          mv cookies_output.txt cookies/NSE_COOKIES.txt
 
       - name: Commit and Push Cookies File
         env:
@@ -55,10 +55,10 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           # Add the cookies file to the repository
-          git add cookies/CORPORATE_ACTION_NSE_COOKIES.txt
+          git add cookies/NSE_COOKIES.txt
           
           # Commit the changes
-          git commit -m "Update CORPORATE_ACTION_NSE_COOKIES.txt with the latest cookies"
+          git commit -m "Update NSE_COOKIES.txt with the latest cookies"
 
           # Push the changes to the repository
           git push origin ${{ github.ref }}
