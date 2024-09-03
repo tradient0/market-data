@@ -38,38 +38,16 @@ jobs:
           sudo Xvfb :99 -ac &
           python script/selenium_script.py > cookies_output.txt
 
-      - name: Store Cookies in GitHub Secrets
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }} # The PAT token stored in secrets
+      - name: Store Cookies as Environment Variable
         run: |
-          # Fetch the public key
-          response=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key)
-          PUBLIC_KEY=$(echo $response | jq -r .key)
-          KEY_ID=$(echo $response | jq -r .key_id)
+          # Read the cookies from the output file
+          COOKIES=$(cat cookies_output.txt)
           
-          # Verify that the public key and key ID are retrieved correctly
-          if [ -z "$PUBLIC_KEY" ] || [ -z "$KEY_ID" ]; then
-            echo "Error: Public key or Key ID is missing."
-            exit 1
-          fi
-          
-          # Decode the public key and save it to a PEM file
-          echo "-----BEGIN PUBLIC KEY-----" > public_key.pem
-          echo "$PUBLIC_KEY" | fold -w 64 >> public_key.pem
-          echo "-----END PUBLIC KEY-----" >> public_key.pem
-          
-          # Encrypt the captured cookies using the public key
-          COOKIES=$(cat cookies_output.txt | openssl pkeyutl -encrypt -pubin -inkey public_key.pem | base64)
-          
-          # Verify that the cookies are properly encrypted
+          # Verify that the cookies are captured correctly
           if [ -z "$COOKIES" ]; then
-            echo "Error: Encryption failed."
+            echo "Error: Cookies not captured."
             exit 1
           fi
           
-          # Store the encrypted cookies in GitHub Secrets
-          curl -X PUT \
-            -H "Authorization: token $PAT_TOKEN" \
-            -H "Content-Type: application/json" \
-            -d "{\"encrypted_value\":\"$COOKIES\",\"key_id\":\"$KEY_ID\"}" \
-            https://api.github.com/repos/${{ github.repository }}/actions/secrets/CORPORATE_ACTION_NSE_COOKIES
+          # Export the cookies as an environment variable
+          echo "CORPORATE_ACTION_NSE_COOKIES=$COOKIES" >> $GITHUB_ENV
