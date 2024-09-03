@@ -27,22 +27,12 @@ jobs:
         pip install selenium webdriver-manager requests
 
     - name: Fetch and Store Cookies
-      run: python py/fetch_cookies.py
-
-    - name: Write Cookies to File
       run: |
-        echo "${{ steps.fetch-cookies.outputs.cookies }}" > cookies.txt
-
-    - name: Commit Cookies File
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "github-actions@github.com"
-        git add cookies.txt
-        git commit -m "Add cookies.txt for debugging"
-        git push
+        cookies=$(python py/fetch_cookies.py)
+        echo "Cookies: $cookies"
 
     - name: Store Cookies as a GitHub Secret
       run: |
-        echo "${{ steps.fetch-cookies.outputs.cookies }}" | gh secret set CORPORATE_ACTION_NSE_COOKIES --body -
+        echo "$cookies" | gh secret set CORPORATE_ACTION_NSE_COOKIES --body -
       env:
         GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
