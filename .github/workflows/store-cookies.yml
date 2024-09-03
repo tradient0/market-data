@@ -57,18 +57,3 @@ jobs:
         with:
           variables: |
             CORPORATE_ACTION_NSE_COOKIES=${{ env.CORPORATE_ACTION_NSE_COOKIES }}
-
-  # Example of another job that reuses the stored variable
-  another-job:
-    name: Reuse Cookies Variable
-    runs-on: ubuntu-latest
-    needs: run-selenium-script
-    steps:
-      - name: Retrieve Cookies Variable
-        uses: UnlyEd/github-action-store-variable@v3
-        with:
-          variables: |
-            CORPORATE_ACTION_NSE_COOKIES
-
-      - name: Use Cookies Variable
-        run: echo "Cookies variable retrieved: ${{ env.CORPORATE_ACTION_NSE_COOKIES }}"
