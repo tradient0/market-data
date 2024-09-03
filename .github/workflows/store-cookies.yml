@@ -44,7 +44,7 @@ jobs:
           mkdir -p cookies
           
           # Move the cookies output to the cookies directory
-          mv cookies_output.txt ./cookies/CORPORATE_ACTION_NSE_COOKIES.txt
+          mv cookies_output.txt .cookies/CORPORATE_ACTION_NSE_COOKIES.txt
 
       - name: Commit and Push Cookies File
         env:
