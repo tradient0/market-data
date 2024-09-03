@@ -1,37 +1,57 @@
-name: Get Cookies and Store in Secrets
+name: Selenium Cookies Extractor
 
 on:
-  workflow_dispatch: # This allows you to manually trigger the workflow
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-  get-cookies:
+  run-selenium-script:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-    - name: Run Puppeteer Script
-      uses: tj-actions/puppeteer@v5
-      id: puppeteer
-      with:
-        files: |
-          getCookies.js
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    - name: Store Cookies in GitHub Secrets
-      env:
-        PAT_TOKEN: ${{ secrets.PAT_TOKEN }} # The PAT token stored in secrets
-      run: |
-        # Fetch the public key
-        PUBLIC_KEY=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key)
-        KEY_ID=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key_id)
-        
-        # Encrypt the captured cookies using pkeyutl
-        COOKIES=$(cat getCookies.js_output | openssl pkeyutl -encrypt -pubin -inkey <(echo "$PUBLIC_KEY" | base64 --decode) | base64)
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium
 
-        # Store the encrypted cookies in GitHub Secrets
-        curl -X PUT \
-          -H "Authorization: token $PAT_TOKEN" \
-          -H "Content-Type: application/json" \
-          -d "{\"encrypted_value\":\"$COOKIES\",\"key_id\":\"$KEY_ID\"}" \
-          https://api.github.com/repos/${{ github.repository }}/actions/secrets/CORPORATE_ACTION_NSE_COOKIES
+      - name: Download Chrome Driver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
+          wget -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/116.0.5845.96/chromedriver_linux64.zip
+          unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
+
+      - name: Run Selenium Script
+        env:
+          DISPLAY: ':99.0'
+        run: |
+          sudo Xvfb :99 -ac &
+          python script/selenium_script.py > cookies_output.txt
+
+      - name: Store Cookies in GitHub Secrets
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }} # The PAT token stored in secrets
+        run: |
+          # Fetch the public key
+          PUBLIC_KEY=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key)
+          KEY_ID=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key_id)
+          
+          # Encrypt the captured cookies using pkeyutl
+          COOKIES=$(cat cookies_output.txt | openssl pkeyutl -encrypt -pubin -inkey <(echo "$PUBLIC_KEY" | base64 --decode) | base64)
+
+          # Store the encrypted cookies in GitHub Secrets
+          curl -X PUT \
+            -H "Authorization: token $PAT_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"encrypted_value\":\"$COOKIES\",\"key_id\":\"$KEY_ID\"}" \
+            https://api.github.com/repos/${{ github.repository }}/actions/secrets/CORPORATE_ACTION_NSE_COOKIES
