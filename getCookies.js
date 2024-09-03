@@ -10,11 +10,16 @@ const puppeteer = require('puppeteer');
     'Accept-Language': 'en-US,en;q=0.9'
   });
 
-  // Capture request cookies
+  // Capture request headers and cookies
   await page.setRequestInterception(true);
+  let capturedCookies = '';
+
   page.on('request', interceptedRequest => {
-    const cookies = interceptedRequest.headers()['cookie'];
-    console.log(cookies);
+    const headers = interceptedRequest.headers();
+    if (headers['content-type'] === 'text/html; charset=utf-8') {
+      capturedCookies = headers['cookie'] || '';
+      console.log('Captured Cookies:', capturedCookies);
+    }
     interceptedRequest.continue();
   });
 
@@ -24,5 +29,9 @@ const puppeteer = require('puppeteer');
   // Wait for the page to fully load
   await page.waitForTimeout(5000); // Adjust timeout as necessary
 
+  // Close the browser
   await browser.close();
+
+  // Return the captured cookies for further processing
+  return capturedCookies;
 })();

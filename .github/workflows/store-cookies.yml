@@ -26,8 +26,8 @@ jobs:
         PUBLIC_KEY=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key)
         KEY_ID=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key_id)
         
-        # Encrypt the cookies using pkeyutl
-        echo -n "${{ steps.puppeteer.outputs.cookies }}" | openssl pkeyutl -encrypt -pubin -inkey <(echo "$PUBLIC_KEY" | base64 --decode) | base64
+        # Encrypt the captured cookies using pkeyutl
+        COOKIES=$(cat getCookies.js_output | openssl pkeyutl -encrypt -pubin -inkey <(echo "$PUBLIC_KEY" | base64 --decode) | base64)
 
         # Store the encrypted cookies in GitHub Secrets
         curl -X PUT \
