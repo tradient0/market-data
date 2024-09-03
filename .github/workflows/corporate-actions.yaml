@@ -13,6 +13,9 @@ jobs:
 
     - name: Fetch Corporate Actions Data
       run: |
+        # Read the cookie value from the file
+        COOKIES=$(cat cookies/CORPORATE_ACTION_NSE_COOKIES.txt | sed 's/cookies=//')
+        
         TODAY=$(date +'%d-%m-%Y')
         SEVENTH_DAY=$(date -d '+7 days' +'%d-%m-%Y')
         mkdir -p "corporate-actions"
@@ -20,7 +23,7 @@ jobs:
           --header 'accept: */*' \
           --header 'accept-language: en-US,en;q=0.9,hi;q=0.8,ta;q=0.7' \
           --header 'cache-control: no-cache' \
-          --header "cookie: ${{ secrets.CORPORATE_ACTION_NSE_COOKIES }}" \
+          --header "cookie: $COOKIES" \
           --header 'pragma: no-cache' \
           --header 'priority: u=1, i' \
           --header 'referer: https://www.nseindia.com/companies-listing/corporate-filings-actions' \
