@@ -22,35 +22,12 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Fetch and Store Cookies
+    - name: Install Dependencies
       run: |
-        python - <<'EOF'
-        import requests
-        import os
+        pip install selenium webdriver-manager
 
-        # URL to fetch cookies from
-        url = 'https://www.nseindia.com/companies-listing/corporate-filings-actions'
-
-        # Create a session object to persist the cookies
-        session = requests.Session()
-
-        # Send a GET request to the NSE website
-        response = session.get(url)
-
-        # Check if the request was successful
-        if response.status_code == 200:
-            # Get cookies from the response
-            cookies = session.cookies.get_dict()
-
-            # Format cookies as a single string
-            cookie_string = '; '.join([f"{name}={value}" for name, value in cookies.items()])
-
-            # Output the cookies to the GitHub Actions environment
-            print(f"::set-output name=cookies::{cookie_string}")
-        else:
-            print(f"Failed to fetch cookies. Status code: {response.status_code}")
-            exit(1)
-        EOF
+    - name: Fetch and Store Cookies
+      run: python py/fetch_cookies.py
 
     - name: Store Cookies as a GitHub Secret
       run: |
