@@ -11,45 +11,12 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
+    - name: Run Puppeteer Script
+      uses: tj-actions/puppeteer@v5
+      id: puppeteer
       with:
-        node-version: '16' # or any preferred version
-
-    - name: Install Dependencies
-      run: npm install puppeteer
-
-    - name: Get Cookies
-      id: get_cookies
-      run: |
-        const puppeteer = require('puppeteer');
-
-        (async () => {
-          const browser = await puppeteer.launch({ headless: true });
-          const page = await browser.newPage();
-          
-          // Set user agent and headers
-          await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36');
-          await page.setExtraHTTPHeaders({
-            'Accept-Language': 'en-US,en;q=0.9'
-          });
-
-          // Navigate to the NSE India Corporate Actions page
-          await page.goto('https://www.nseindia.com/companies-listing/corporate-filings-actions');
-
-          // Wait for the page to fully load
-          await page.waitForTimeout(5000); // Adjust timeout as necessary
-
-          // Get all cookies
-          const cookies = await page.cookies();
-          const cookiesString = JSON.stringify(cookies);
-
-          await browser.close();
-
-          // Set output for GitHub Action
-          console.log(`::set-output name=cookies::${cookiesString}`);
-        })();
-      shell: node
+        files: |
+          getCookies.js
 
     - name: Store Cookies in GitHub Secrets
       env:
@@ -60,7 +27,7 @@ jobs:
         KEY_ID=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key_id)
         
         # Encrypt the cookies
-        COOKIES=$(echo -n "${{ steps.get_cookies.outputs.cookies }}" | openssl rsautl -encrypt -pubin -inkey <(echo "$PUBLIC_KEY" | base64 --decode) | base64)
+        COOKIES=$(echo -n "${{ steps.puppeteer.outputs.cookies }}" | openssl rsautl -encrypt -pubin -inkey <(echo "$PUBLIC_KEY" | base64 --decode) | base64)
         
         # Store the encrypted cookies in GitHub Secrets
         curl -X PUT \
