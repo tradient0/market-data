@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: '16' # or any preferred version
 
-    - name: Install Puppeteer
+    - name: Install Dependencies
       run: npm install puppeteer
 
     - name: Get Cookies
@@ -51,13 +51,20 @@ jobs:
         })();
       shell: node
 
-
     - name: Store Cookies in GitHub Secrets
       env:
         PAT_TOKEN: ${{ secrets.PAT_TOKEN }} # The PAT token stored in secrets
       run: |
+        # Fetch the public key
+        PUBLIC_KEY=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key)
+        KEY_ID=$(curl -s -H "Authorization: token $PAT_TOKEN" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key_id)
+        
+        # Encrypt the cookies
+        COOKIES=$(echo -n "${{ steps.get_cookies.outputs.cookies }}" | openssl rsautl -encrypt -pubin -inkey <(echo "$PUBLIC_KEY" | base64 --decode) | base64)
+        
+        # Store the encrypted cookies in GitHub Secrets
         curl -X PUT \
           -H "Authorization: token $PAT_TOKEN" \
           -H "Content-Type: application/json" \
-          -d "{\"encrypted_value\":\"${{ steps.get_cookies.outputs.cookies }}\",\"key_id\":\"$(curl -s -H \"Authorization: token $PAT_TOKEN\" https://api.github.com/repos/${{ github.repository }}/actions/secrets/public-key | jq -r .key_id)\"}" \
+          -d "{\"encrypted_value\":\"$COOKIES\",\"key_id\":\"$KEY_ID\"}" \
           https://api.github.com/repos/${{ github.repository }}/actions/secrets/CORPORATE_ACTION_NSE_COOKIES
