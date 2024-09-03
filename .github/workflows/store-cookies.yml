@@ -38,23 +38,27 @@ jobs:
           sudo Xvfb :99 -ac &
           python script/selenium_script.py > cookies_output.txt
 
-      - name: Update Repository Variable
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }} # The PAT token stored in secrets with 'repo' scope
+      - name: Save Cookies to File
         run: |
-          # Read the cookies from the output file
-          COOKIES=$(cat cookies_output.txt)
+          # Create a directory to store the cookies file
+          mkdir -p cookies
           
-          # Verify that the cookies are captured correctly
-          if [ -z "$COOKIES" ]; then
-            echo "Error: Cookies not captured."
-            exit 1
-          fi
+          # Move the cookies output to the cookies directory
+          mv cookies_output.txt cookies/CORPORATE_ACTION_NSE_COOKIES.txt
 
-          # Update the repository variable using GitHub API
-          curl -X PATCH \
-            -H "Authorization: token $PAT_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            -H "Content-Type: application/json" \
-            -d "{\"name\":\"CORPORATE_ACTION_NSE_COOKIES\",\"value\":\"$COOKIES\"}" \
-            https://api.github.com/repos/${{ github.repository }}/actions/variables/CORPORATE_ACTION_NSE_COOKIES
+      - name: Commit and Push Cookies File
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub token to authenticate the push
+        run: |
+          # Configure Git with GitHub Actions bot's details
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Add the cookies file to the repository
+          git add cookies/CORPORATE_ACTION_NSE_COOKIES.txt
+          
+          # Commit the changes
+          git commit -m "Update CORPORATE_ACTION_NSE_COOKIES.txt with the latest cookies"
+
+          # Push the changes to the repository
+          git push origin ${{ github.ref }}
