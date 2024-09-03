@@ -17,19 +17,18 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
       with:
-        python-version: '3.x'
+        node-version: '16.x'  # Adjust Node.js version if needed
 
     - name: Install Dependencies
-      run: |
-        pip install selenium webdriver-manager
+      run: npm install axios tough-cookie axios-cookiejar-support
 
     - name: Fetch and Display Cookies
       id: fetch-cookies
       run: |
-        cookies=$(python py/fetch_cookies.py)
+        cookies=$(node automation/fetch_cookies.js)
         echo "Cookies: $cookies"
 
     - name: Store Cookies as a GitHub Secret
