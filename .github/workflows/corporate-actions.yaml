@@ -2,8 +2,8 @@ name: Fetch Corporate Actions Data
 
 on:
   workflow_dispatch:  # Manual trigger via a button
-  schedule:           # Auto trigger every day at 1:00 AM
-    - cron: '0 1 * * *'
+  schedule:           # Auto trigger every day at 1:00 AM IST
+    - cron: '30 19 * * *'    # 1:00 AM IST (7:30 PM UTC previous day)
 
 
 jobs:
