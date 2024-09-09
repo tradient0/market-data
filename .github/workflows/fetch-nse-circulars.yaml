@@ -7,77 +7,45 @@ on:
   workflow_dispatch:  # Allows manual triggering from the GitHub Actions tab
 
 jobs:
-  fetch-nse-data:
+  fetch-nse-circulars:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '16'
-
-    - name: Fetch NSE Data
+    - name: Fetch Cookies from URL
       run: |
-        # Install necessary dependencies
-        npm install axios
-
+        # Fetch cookies from the URL and store them in a variable
+        COOKIES=$(curl -s https://raw.githubusercontent.com/tradient0/cookies/main/cookies/NSE_COOKIES.txt | sed 's/cookies=//')
+        echo "Cookies fetched: $COOKIES"
+        
+    - name: Fetch NSE Circulars Data
+      run: |
+        # Set the date range
+        FROM_DATE=$(date +'%d-%m-%Y' -d "yesterday")
+        TO_DATE=$(date +'%d-%m-%Y')
+        
         # Create the directory for circulars if it doesn't exist
-        mkdir -p circulars/nse
+        mkdir -p "circulars/nse"
 
-        # Fetch the NSE data
-        node <<'EOF'
-        const axios = require('axios');
-        const fs = require('fs');
-
-        // URL to get the cookies
-        const cookieUrl = 'https://raw.githubusercontent.com/tradient0/cookies/main/cookies/NSE_COOKIES.txt';
-
-        async function fetchNSEData() {
-          try {
-            console.log('Fetching cookies...');
-            const cookieResponse = await axios.get(cookieUrl);
-            const cookies = cookieResponse.data.replace('cookies=', '').trim();
-            console.log('Cookies fetched: ', cookies);
-
-            const headers = {
-              'accept': '*/*',
-              'accept-language': 'en-US,en;q=0.9',
-              'cache-control': 'no-cache',
-              'cookie': cookies,
-              'pragma': 'no-cache',
-              'priority': 'u=1, i',
-              'referer': 'https://www.nseindia.com/resources/exchange-communication-circulars',
-              'sec-ch-ua': '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
-              'sec-ch-ua-mobile': '?0',
-              'sec-ch-ua-platform': '"Windows"',
-              'sec-fetch-dest': 'empty',
-              'sec-fetch-mode': 'cors',
-              'sec-fetch-site': 'same-origin',
-              'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
-            };
-
-            const apiUrl = 'https://www.nseindia.com/api/circulars?fromDate=9-08-2024&toDate=9-09-2024';
-            console.log('Fetching NSE data from API...');
-            const response = await axios.get(apiUrl, { headers });
-            console.log('NSE data fetched successfully.');
-
-            const data = response.data.data;
-
-            // Save the fetched data as JSON in circulars/nse/index.json
-            const outputFilePath = 'circulars/nse/index.json';
-            fs.writeFileSync(outputFilePath, JSON.stringify(data, null, 2));
-            console.log(`Data saved to ${outputFilePath}`);
-          } catch (error) {
-            console.error('Error fetching NSE data:', error.message);
-            process.exit(1);  // Exit the process with an error code
-          }
-        }
-
-        fetchNSEData();
-        EOF
+        # Use curl to fetch the NSE circulars data
+        curl --location "https://www.nseindia.com/api/circulars?fromDate=$FROM_DATE&toDate=$TO_DATE" \
+          --header 'accept: */*' \
+          --header 'accept-language: en-US,en;q=0.9' \
+          --header 'cache-control: no-cache' \
+          --header "cookie: $COOKIES" \
+          --header 'pragma: no-cache' \
+          --header 'priority: u=1, i' \
+          --header 'referer: https://www.nseindia.com/resources/exchange-communication-circulars' \
+          --header 'sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"' \
+          --header 'sec-ch-ua-mobile: ?0' \
+          --header 'sec-ch-ua-platform: "Windows"' \
+          --header 'sec-fetch-dest: empty' \
+          --header 'sec-fetch-mode: cors' \
+          --header 'sec-fetch-site: same-origin' \
+          --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
+          -o "circulars/nse/index.json"
 
     - name: Commit and Push Data
       run: |
