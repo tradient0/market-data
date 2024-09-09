@@ -14,15 +14,17 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Fetch Cookies from URL
+    - name: Fetch Cookies from URL and Set Environment Variable
       run: |
         # Fetch cookies from the URL and store them in a variable
         COOKIES=$(curl -s https://raw.githubusercontent.com/tradient0/cookies/main/cookies/NSE_COOKIES.txt | sed 's/cookies=//')
         echo "Cookies fetched: $COOKIES"
         
+        # Set the COOKIES environment variable for later steps
+        echo "COOKIES=$COOKIES" >> $GITHUB_ENV
+
     - name: Fetch NSE Circulars Data
       run: |
-
         # Create the directory for circulars if it doesn't exist
         mkdir -p "circulars/nse"
 
