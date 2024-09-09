@@ -1,48 +1,56 @@
-name: Fetch Corporate Actions Data
+name: Fetch NSE Circular Data
 
 on:
-  workflow_dispatch:  # Manual trigger via a button
-  schedule:           # Auto trigger every day at 1:00 AM IST
-    - cron: '30 19 * * *'    # 1:00 AM IST (7:30 PM UTC previous day)
-
+  schedule:
+    # Runs every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allows manual triggering from the GitHub Actions tab
 
 jobs:
-  fetch-corporate-actions:
+  fetch-nse-circulars:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Fetch Corporate Actions Data
+    - name: Fetch Cookies from URL
       run: |
-        # Read the cookie value from the file
-        COOKIES=$(cat cookies/NSE_COOKIES.txt | sed 's/cookies=//')
+        # Fetch cookies from the URL and store them in a variable
+        COOKIES=$(curl -s https://raw.githubusercontent.com/tradient0/cookies/main/cookies/NSE_COOKIES.txt | sed 's/cookies=//')
+        echo "Cookies fetched: $COOKIES"
         
-        TODAY=$(date +'%d-%m-%Y')
-        SEVENTH_DAY=$(date -d '+7 days' +'%d-%m-%Y')
-        mkdir -p "corporate-actions"
-        curl --location "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=$TODAY&to_date=$SEVENTH_DAY" \
+    - name: Fetch NSE Circulars Data
+      run: |
+        # Set the date range
+        FROM_DATE=$(date +'%d-%m-%Y' -d "yesterday")
+        TO_DATE=$(date +'%d-%m-%Y')
+        
+        # Create the directory for circulars if it doesn't exist
+        mkdir -p "circulars/nse"
+
+        # Use curl to fetch the NSE circulars data
+        curl --location "https://www.nseindia.com/api/circulars?fromDate=$FROM_DATE&toDate=$TO_DATE" \
           --header 'accept: */*' \
-          --header 'accept-language: en-US,en;q=0.9,hi;q=0.8,ta;q=0.7' \
+          --header 'accept-language: en-US,en;q=0.9' \
           --header 'cache-control: no-cache' \
           --header "cookie: $COOKIES" \
           --header 'pragma: no-cache' \
           --header 'priority: u=1, i' \
-          --header 'referer: https://www.nseindia.com/companies-listing/corporate-filings-actions' \
-          --header 'sec-ch-ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"' \
+          --header 'referer: https://www.nseindia.com/resources/exchange-communication-circulars' \
+          --header 'sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"' \
           --header 'sec-ch-ua-mobile: ?0' \
           --header 'sec-ch-ua-platform: "Windows"' \
           --header 'sec-fetch-dest: empty' \
           --header 'sec-fetch-mode: cors' \
           --header 'sec-fetch-site: same-origin' \
-          --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
-          -o "corporate-actions/index.json"
+          --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
+          -o "circulars/nse/index.json"
 
     - name: Commit and Push Data
       run: |
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"
-        git add "corporate-actions/index.json"
-        git commit -m "Update Corporate Actions data"
+        git add "circulars/nse/index.json"
+        git commit -m "Update NSE Circulars data"
         git push
