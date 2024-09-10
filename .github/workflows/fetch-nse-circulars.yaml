@@ -23,12 +23,22 @@ jobs:
         # Set the COOKIES environment variable for later steps
         echo "COOKIES=$COOKIES" >> $GITHUB_ENV
 
+    - name: Set Date Variables and Echo
+      run: |
+        # Set the date range in the desired format (DD-MM-YYYY)
+        FROM_DATE=$(date +'%d-%m-%Y' -d "$(date +'%Y-%m-01')")
+        TO_DATE=$(date +'%d-%m-%Y')
+
+        # Echo the dates for verification
+        echo "From Date: $FROM_DATE"
+        echo "To Date: $TO_DATE"
+
+        # Set the environment variables for dates
+        echo "FROM_DATE=$FROM_DATE" >> $GITHUB_ENV
+        echo "TO_DATE=$TO_DATE" >> $GITHUB_ENV
+
     - name: Fetch NSE Circulars Data from Start of Month to Today
       run: |
-        # Set the date range in YYYY-MM-DD format
-        FROM_DATE=$(date +'%Y-%m-01')  # First day of the current month
-        TO_DATE=$(date +'%Y-%m-%d')    # Today's date
-
         # Create the directory for circulars if it doesn't exist
         mkdir -p "circulars/nse"
 
@@ -52,8 +62,11 @@ jobs:
 
     - name: Fetch NSE Circulars Data for Today Only
       run: |
-        # Set the date range for today in YYYY-MM-DD format
-        TODAY=$(date +'%Y-%m-%d')
+        # Set the date range for today in the desired format (DD-MM-YYYY)
+        TODAY=$(date +'%d-%m-%Y')
+
+        # Echo today's date for verification
+        echo "Today's Date: $TODAY"
 
         # Create the directory for today's circulars if it doesn't exist
         mkdir -p "circulars/nse/today"
