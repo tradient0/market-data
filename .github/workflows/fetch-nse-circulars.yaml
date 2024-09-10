@@ -25,9 +25,9 @@ jobs:
 
     - name: Fetch NSE Circulars Data from Start of Month to Today
       run: |
-        # Set the date range
-        FROM_DATE=$(date +'%01-%m-%Y')  # First day of the current month
-        TO_DATE=$(date +'%d-%m-%Y')     # Today's date
+        # Set the date range in YYYY-MM-DD format
+        FROM_DATE=$(date +'%Y-%m-01')  # First day of the current month
+        TO_DATE=$(date +'%Y-%m-%d')    # Today's date
 
         # Create the directory for circulars if it doesn't exist
         mkdir -p "circulars/nse"
@@ -37,7 +37,7 @@ jobs:
           --header 'accept: */*' \
           --header 'accept-language: en-US,en;q=0.9' \
           --header 'cache-control: no-cache' \
-          --header "cookie: $COOKIES" \
+          --header "cookie: \"$COOKIES\"" \
           --header 'pragma: no-cache' \
           --header 'priority: u=1, i' \
           --header 'referer: https://www.nseindia.com/resources/exchange-communication-circulars' \
@@ -52,8 +52,8 @@ jobs:
 
     - name: Fetch NSE Circulars Data for Today Only
       run: |
-        # Set the date range for today
-        TODAY=$(date +'%d-%m-%Y')
+        # Set the date range for today in YYYY-MM-DD format
+        TODAY=$(date +'%Y-%m-%d')
 
         # Create the directory for today's circulars if it doesn't exist
         mkdir -p "circulars/nse/today"
@@ -63,7 +63,7 @@ jobs:
           --header 'accept: */*' \
           --header 'accept-language: en-US,en;q=0.9' \
           --header 'cache-control: no-cache' \
-          --header "cookie: $COOKIES" \
+          --header "cookie: \"$COOKIES\"" \
           --header 'pragma: no-cache' \
           --header 'priority: u=1, i' \
           --header 'referer: https://www.nseindia.com/resources/exchange-communication-circulars' \
