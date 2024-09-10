@@ -1,0 +1,80 @@
+name: Fetch CDSL Circular Data
+
+on:
+  schedule:
+    # Runs every day at 00:00, 08:00, and 16:00 UTC
+    - cron: '0 0 * * *'   # 00:00 UTC
+    - cron: '0 8 * * *'   # 08:00 UTC
+    - cron: '0 16 * * *'  # 16:00 UTC
+  workflow_dispatch:  # Allows manual triggering from the GitHub Actions tab
+
+jobs:
+  fetch-cdsl-circulars:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Fetch CDSL Circulars Data as HTML
+      run: |
+        # Create directory for CDSL circulars if it doesn't exist
+        mkdir -p "circulars/cdsl"
+
+        # Fetch the HTML page from CDSL's website and save it
+        curl --location "https://www.cdslindia.com/Publications/Communique.aspx#" -o "circulars/cdsl/cdsl_page.html"
+
+    - name: Extract Table and Convert to JSON
+      run: |
+        # Use Python to parse the HTML, extract the table data, and convert it to JSON
+        python3 << EOF
+import json
+from bs4 import BeautifulSoup
+
+# Read the HTML content
+with open('circulars/cdsl/cdsl_page.html', 'r', encoding='utf-8') as file:
+    html_content = file.read()
+
+# Parse the HTML using BeautifulSoup
+soup = BeautifulSoup(html_content, 'html.parser')
+
+# Find the table with the data
+table = soup.find('table', {'id': 'table1'})
+
+# Extract the data rows
+data = []
+rows = table.find('tbody').find_all('tr')
+
+for row in rows:
+    cols = row.find_all('td')
+    if len(cols) >= 4:
+        # Extract relevant data
+        serial_no = cols[0].text.strip()
+        communique_no = cols[1].text.strip()
+        subject = cols[2].find('a').text.strip()
+        date = cols[3].text.strip()
+        # Construct the full URL for the link
+        link = "https://www.cdslindia.com" + cols[2].find('a')['href'].replace('..', '')
+        
+        # Append the row data as a dictionary
+        data.append({
+            'serial_no': serial_no,
+            'communique_no': communique_no,
+            'subject': subject,
+            'date': date,
+            'link': link
+        })
+
+# Convert the data to JSON and save it to a file
+with open('circulars/cdsl/index.json', 'w', encoding='utf-8') as json_file:
+    json.dump(data, json_file, ensure_ascii=False, indent=4)
+
+EOF
+
+    - name: Commit and Push Data
+      run: |
+        git config --local user.name "github-actions"
+        git config --local user.email "github-actions@github.com"
+        git add "circulars/cdsl/index.json"
+        git commit -m "Update CDSL Circulars data"
+        git push
