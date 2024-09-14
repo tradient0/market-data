@@ -1,17 +1,17 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2024-531",
+        "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT (BSDA)",
+        "date": "14-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-531&action=communique"
+    },
+    {
+        "serial_no": "2",
         "communique_no": "DP2024-530",
         "subject": "MULTIPLE SETTLEMENTS ON ACCOUNT OF SETTLEMENT HOLIDAY",
         "date": "13-Sep-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-530&action=communique"
-    },
-    {
-        "serial_no": "2",
-        "communique_no": "DP2024-528",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "13-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-528&action=communique"
     },
     {
         "serial_no": "3",
@@ -22,10 +22,10 @@
     },
     {
         "serial_no": "4",
-        "communique_no": "DP2024-527",
-        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
-        "date": "12-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-527&action=communique"
+        "communique_no": "DP2024-528",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "13-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-528&action=communique"
     },
     {
         "serial_no": "5",
@@ -36,31 +36,31 @@
     },
     {
         "serial_no": "6",
-        "communique_no": "DP2024-524",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUERS",
-        "date": "11-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-524&action=communique"
+        "communique_no": "DP2024-527",
+        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
+        "date": "12-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-527&action=communique"
     },
     {
         "serial_no": "7",
-        "communique_no": "DP2024-525",
-        "subject": "DETAILS OF CORPORATE ACTIONS",
-        "date": "11-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-525&action=communique"
-    },
-    {
-        "serial_no": "8",
         "communique_no": "DP2024-523",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "11-Sep-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-523&action=communique"
     },
     {
+        "serial_no": "8",
+        "communique_no": "DP2024-525",
+        "subject": "DETAILS OF CORPORATE ACTIONS",
+        "date": "11-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-525&action=communique"
+    },
+    {
         "serial_no": "9",
-        "communique_no": "DP2024-519",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "10-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-519&action=communique"
+        "communique_no": "DP2024-524",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUERS",
+        "date": "11-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-524&action=communique"
     },
     {
         "serial_no": "10",
