@@ -1,38 +1,38 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2024-540",
+        "communique_no": "DP2024-542",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "16-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-540&action=communique"
+        "date": "17-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-542&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2024-533",
-        "subject": "SEBI CIR ENABLING T plus 2 TRADING OF BONUS SHARES WHERE T IS RECORD DATE",
-        "date": "16-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-533&action=communique"
+        "communique_no": "DP2024-544",
+        "subject": "SEPARATE MONTHLY INVOICES FOR DP CHARGES, CISA OVERDUE CHARGES AND MONETARY PENALTY",
+        "date": "17-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-544&action=communique"
     },
     {
         "serial_no": "3",
-        "communique_no": "DP2024-532",
-        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
-        "date": "16-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-532&action=communique"
+        "communique_no": "DP2024-541",
+        "subject": "VALIDATION OF KYC RECORDS WITH KRA",
+        "date": "17-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-541&action=communique"
     },
     {
         "serial_no": "4",
-        "communique_no": "DP2024-536",
-        "subject": "SUBMISSION OF ANNUAL SYSTEM AUDIT REPORT",
-        "date": "16-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-536&action=communique"
+        "communique_no": "DP2024-543",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "17-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-543&action=communique"
     },
     {
         "serial_no": "5",
-        "communique_no": "DP2024-539",
-        "subject": "SEBI CIR - REPORTING BY FOREIGN VENTURE CAPITAL INVESTORS",
+        "communique_no": "DP2024-534",
+        "subject": "SUBMISSION OF ANNUAL CYBER SECURITY AUDIT REPORT",
         "date": "16-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-539&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-534&action=communique"
     },
     {
         "serial_no": "6",
@@ -43,30 +43,30 @@
     },
     {
         "serial_no": "7",
-        "communique_no": "DP2024-535",
-        "subject": "DETAILS OF CORPORATE ACTION",
+        "communique_no": "DP2024-539",
+        "subject": "SEBI CIR - REPORTING BY FOREIGN VENTURE CAPITAL INVESTORS",
         "date": "16-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-535&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-539&action=communique"
     },
     {
         "serial_no": "8",
+        "communique_no": "DP2024-532",
+        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
+        "date": "16-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-532&action=communique"
+    },
+    {
+        "serial_no": "9",
+        "communique_no": "DP2024-533",
+        "subject": "SEBI CIR ENABLING T plus 2 TRADING OF BONUS SHARES WHERE T IS RECORD DATE",
+        "date": "16-Sep-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-533&action=communique"
+    },
+    {
+        "serial_no": "10",
         "communique_no": "DP2024-537",
         "subject": "MULTIPLE SETTLEMENTS ON ACCOUNT OF SETTLEMENT HOLIDAY",
         "date": "16-Sep-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-537&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2024-534",
-        "subject": "SUBMISSION OF ANNUAL CYBER SECURITY AUDIT REPORT",
-        "date": "16-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-534&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2024-531",
-        "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT (BSDA)",
-        "date": "14-Sep-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-531&action=communique"
     }
 ]
