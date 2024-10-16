@@ -1,0 +1,47 @@
+ 
+ 
+CDSL :  your depository                                                                                                Page 1 of 1 
+KEYWORD  :  SEBI       
+Central Depository Services (India) Limited  
+                 Convenient      Dependable      Secure  
+COMMUNIQUÉ TO DEPOSITORY PARTICIPANTS  
+ 
+ 
+ CDSL/OPS/ DP/POLCY/20 24/614                                                                October  15, 2024  
+ 
+ VALIDATION OF KYC RECORDS WITH KRA  
+  
+DPs are advised to refer Communique  no. CDSL/OPS/DP/POLCY/2024/ 541 dated September 17, 
+2024 , regarding  freezing of demat  accounts of existing clients whose KYC records are not found to 
+be valid by KRAs after the validation process.  
+ 
+In continuation to above, KRAs have provided the  list of PANs for which KYC records are not found 
+to be valid due to various reasons  (invalid PANs due to any reasons)  and PANs updated  during  
+September  01, 2024, to September  30, 2024 . 
+ 
+Based on the details of non-validated  PANs received from KRAs updated as on September  30, 
+2024, DP wise list of  demat accounts identified against the said non-validated PANs are made  
+available by CDSL  in the DPs billing folder with file naming convention as “BLNG<<DP ID>>_  
+KRA_DEFICIENT_BO_  0810 2024 .tar” for follow up with identified deficient BOs .  
+ 
+The aforesaid Demat  accounts will be frozen for both - debit and credit with freeze reason code 
+“27 – Account holder related –KYC non -compliant ” on Saturday , November 0 2, 202 4, 
+considering the updated data made available by KRAs as on October  30, 2024 .   
+ 
+Further, for unfreezing  the aforesaid accounts, DPs are advised  to follow the proce ss of 
+unfreezing of the demat accounts  mention ed in our Communique no.  
+CDSL/OPS/DP/SYSTM/2023/ 525 dated  September 05, 2023.  
+ 
+DPs are advised  to take note of the same  and ensure compliance . 
+ 
+Queries regarding this communiqué may be addressed to: CDSL – Helpdesk  Emails may be sent 
+to: dprtasupport@cdslindia.com  and telephone number  022-62343333 . 
+ 
+For and on behalf of  
+Central Depository Services (India) Limited  
+ 
+sd/- 
+ 
+Nilesh Shah  
+Assistant Vice President  – Operations  
+ 
