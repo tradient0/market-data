@@ -2,10 +2,11 @@ name: Fetch CDSL Circular Data
 
 on:
   schedule:
-    # Runs every day at 00:00, 08:00, and 16:00 UTC
     - cron: '0 0 * * *'   # 00:00 UTC
-    - cron: '0 8 * * *'   # 08:00 UTC
-    - cron: '0 16 * * *'  # 16:00 UTC
+    - cron: '0 6 * * *'   # 06:00 UTC
+    - cron: '0 12 * * *'  # 12:00 UTC
+    - cron: '0 18 * * *'  # 18:00 UTC
+    - cron: '0 23 * * *'  # 23:00 UTC
   workflow_dispatch:  # Allows manual triggering from the GitHub Actions tab
 
 jobs:
