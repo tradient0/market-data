@@ -1,4 +1,4 @@
-name: PDF to Text Conversion and Commit
+name: PDF to Text 
 
 on:
   workflow_dispatch:  # Allow manual trigger
@@ -25,7 +25,7 @@ jobs:
 
     - name: Run PDF to Text Conversion Script
       run: |
-        python process_pdfs.py
+        python script/process_pdfs.py
 
     - name: Commit Text Files
       run: |
