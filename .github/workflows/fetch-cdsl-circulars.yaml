@@ -25,15 +25,23 @@ jobs:
         # Fetch the HTML page from CDSL's website and save it
         curl --location "https://www.cdslindia.com/Publications/Communique.aspx#" -o "circulars/cdsl/cdsl_page.html"
 
-    - name: Install pipx and BeautifulSoup
+    - name: Install Python and pipx
       run: |
         sudo apt-get update
-        sudo apt-get install -y python3-pipx
+        sudo apt-get install -y python3-pip
+        pip install --user pipx
+        export PATH="$HOME/.local/bin:$PATH"
+        pipx ensurepath
+
+    - name: Install BeautifulSoup4 using pipx
+      run: |
+        export PATH="$HOME/.local/bin:$PATH"
         pipx install beautifulsoup4
 
     - name: Run the Python Script to Convert HTML to JSON
       run: |
-        pipx run python3 script/cdsl.py
+        export PATH="$HOME/.local/bin:$PATH"
+        pipx run --spec beautifulsoup4 python3 script/cdsl.py
 
     - name: Commit and Push Data
       run: |
