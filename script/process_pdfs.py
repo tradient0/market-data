@@ -50,7 +50,7 @@ def process_json_and_save_text(json_file, output_dir="text"):
 
 if __name__ == "__main__":
     # Define the input JSON file and output directory
-    json_file = "market-data/circulars/cdsl/index.json"
+    json_file = "../circulars/cdsl/index.json"
     output_dir = "text"
 
     # Process the JSON and save the PDFs as text
