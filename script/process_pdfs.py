@@ -50,8 +50,8 @@ def process_json_and_save_text(json_file, output_dir="text"):
 
 if __name__ == "__main__":
     # Define the input JSON file and output directory
-    json_file = "../circulars/cdsl/index.json"  # Update to correct path
-    output_dir = "../text"  # Save text files outside the script folder
+    json_file = "circulars/cdsl/index.json"  # Update to root-based path
+    output_dir = "text"  # Save text files in root-based directory
 
     # Process the JSON and save the PDFs as text
     process_json_and_save_text(json_file, output_dir)
