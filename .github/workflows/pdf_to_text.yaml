@@ -1,0 +1,36 @@
+name: PDF to Text Conversion and Commit
+
+on:
+  workflow_dispatch:  # Allow manual trigger
+  schedule:  # Optionally, schedule to run daily
+    - cron: '0 0 * * *'  # Every day at midnight
+
+jobs:
+  convert_and_commit_pdfs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install PyPDF2 requests
+
+    - name: Run PDF to Text Conversion Script
+      run: |
+        python process_pdfs.py
+
+    - name: Commit Text Files
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add text/*.txt
+        git commit -m "Add text files generated from PDFs"
+        git push
