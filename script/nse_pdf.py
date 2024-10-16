@@ -3,6 +3,7 @@ import PyPDF2
 import io
 import json
 import os
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Function to download the PDF content from a URL
@@ -41,6 +42,13 @@ def process_single_pdf(item, output_dir):
         print(f"Failed to process {item['circNumber']}: {str(e)}")
         return False  # Failure
 
+# Function to print progress statistics
+def print_progress(processed, total, start_time):
+    elapsed_time = time.time() - start_time
+    speed = processed / elapsed_time if elapsed_time > 0 else 0
+    remaining = total - processed
+    print(f"Processed: {processed}/{total}, Pending: {remaining}, Speed: {speed:.2f} PDFs/sec")
+
 # Function to process the JSON file, download PDFs, and save the text
 def process_json_and_save_text(json_file, output_dir="circulars/nse/text", max_workers=5):
     # Load the JSON data
@@ -49,6 +57,13 @@ def process_json_and_save_text(json_file, output_dir="circulars/nse/text", max_w
 
     # Ensure the output directory exists
     os.makedirs(output_dir, exist_ok=True)
+
+    # Get total number of PDFs
+    total_pdfs = sum(1 for item in data["data"] if item["fileExt"] == "pdf")
+    processed_pdfs = 0
+
+    # Track the start time
+    start_time = time.time()
 
     # List to hold the futures for multi-threading
     futures = []
@@ -61,10 +76,16 @@ def process_json_and_save_text(json_file, output_dir="circulars/nse/text", max_w
                 # Submit the task to the thread pool
                 futures.append(executor.submit(process_single_pdf, item, output_dir))
 
-        # Wait for all the futures to complete
+        # Wait for all the futures to complete and update the progress
         for future in as_completed(futures):
             if future.result() is False:
                 print("A task failed during processing.")
+            processed_pdfs += 1
+            print_progress(processed_pdfs, total_pdfs, start_time)
+
+    # Final progress print to summarize
+    print_progress(processed_pdfs, total_pdfs, start_time)
+    print("Processing completed.")
 
 if __name__ == "__main__":
     # Define the input JSON file and output directory
