@@ -25,7 +25,7 @@ jobs:
 
     - name: Run PDF to Text Conversion Script
       run: |
-        python script/process_pdfs.py
+        python script/nse_pdf.py
 
     - name: Commit Text Files
       run: |
