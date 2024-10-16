@@ -62,17 +62,6 @@ jobs:
           --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
           -o "circulars/nse/index.json"
 
-    - name: Check if Circular Data has Changed
-      run: |
-        # Check if there are any changes in the circulars/nse/index.json file
-        git fetch origin
-        if git diff --exit-code circulars/nse/index.json; then
-          echo "No changes detected. Exiting."
-          exit 0
-        else
-          echo "New changes detected. Proceeding to commit."
-        fi
-
     - name: Fetch NSE Circulars Data for Today Only
       run: |
         # Set the date range for today in the desired format (DD-MM-YYYY)
@@ -101,6 +90,11 @@ jobs:
           --header 'sec-fetch-site: same-origin' \
           --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
           -o "circulars/nse/today/index.json"
+
+    - name: Check if there are any changes
+      run: |
+        # Check if there are any changes to commit
+        git diff --quiet || echo "Changes detected" || exit 0
 
     - name: Commit and Push Data
       run: |
