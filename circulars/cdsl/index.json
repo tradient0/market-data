@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2024-633",
+        "communique_no": "DP2024-639",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "23-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-633&action=communique"
+        "date": "24-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-639&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2024-635",
-        "subject": "DETAILS OF CORPORATE ACTIONS",
-        "date": "23-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-635&action=communique"
+        "communique_no": "DP2024-641",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "24-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-641&action=communique"
     },
     {
         "serial_no": "3",
-        "communique_no": "DP2024-634",
+        "communique_no": "DP2024-642",
         "subject": "CHANGE OF NAME EFFECTED BY DP",
-        "date": "23-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-634&action=communique"
+        "date": "24-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-642&action=communique"
     },
     {
         "serial_no": "4",
-        "communique_no": "DP2024-636",
-        "subject": "SEBI CIR - INCLUSION OF MUTUAL FUND UNITS IN THE SEBI (PROHIBITION OF INSIDER TRADING) REGULATIONS",
-        "date": "23-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-636&action=communique"
+        "communique_no": "DP2024-640",
+        "subject": "AMENDMENT TO DP OPERATING INSTRUCTIONS - CHAPTER 10",
+        "date": "24-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-640&action=communique"
     },
     {
         "serial_no": "5",
-        "communique_no": "DP2024-637",
-        "subject": "SEBI CIR - ASSOCIATION OF PERSONS REGULATED BY THE BOARD AND THEIR AGENTS WITH CERTAIN PERSONS",
-        "date": "23-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-637&action=communique"
-    },
-    {
-        "serial_no": "6",
         "communique_no": "DP2024-638",
         "subject": "SEBI CIR - MODIFICATION IN ANNEXURE TO COMMON APPLICATION FORM",
         "date": "23-Oct-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-638&action=communique"
     },
     {
+        "serial_no": "6",
+        "communique_no": "DP2024-637",
+        "subject": "SEBI CIR - ASSOCIATION OF PERSONS REGULATED BY THE BOARD AND THEIR AGENTS WITH CERTAIN PERSONS",
+        "date": "23-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-637&action=communique"
+    },
+    {
         "serial_no": "7",
-        "communique_no": "DP2024-629",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "22-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-629&action=communique"
+        "communique_no": "DP2024-636",
+        "subject": "SEBI CIR - INCLUSION OF MUTUAL FUND UNITS IN THE SEBI (PROHIBITION OF INSIDER TRADING) REGULATIONS",
+        "date": "23-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-636&action=communique"
     },
     {
         "serial_no": "8",
-        "communique_no": "DP2024-631",
-        "subject": "GAZETTE NOTIFICATION - Designation of Terrorist/ Terrorist Organization",
-        "date": "22-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-631&action=communique"
+        "communique_no": "DP2024-635",
+        "subject": "DETAILS OF CORPORATE ACTIONS",
+        "date": "23-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-635&action=communique"
     },
     {
         "serial_no": "9",
-        "communique_no": "DP2024-630",
-        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
-        "date": "22-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-630&action=communique"
+        "communique_no": "DP2024-634",
+        "subject": "CHANGE OF NAME EFFECTED BY DP",
+        "date": "23-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-634&action=communique"
     },
     {
         "serial_no": "10",
-        "communique_no": "DP2024-632",
-        "subject": "CDSL DP TRAINING PROGRAMME",
-        "date": "22-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-632&action=communique"
+        "communique_no": "DP2024-633",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "23-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-633&action=communique"
     }
 ]
