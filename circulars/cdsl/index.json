@@ -1,38 +1,38 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2024-662",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "04-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-662&action=communique"
+        "communique_no": "DP2024-665",
+        "subject": "DETAILS OF CORPORATE ACTIONS",
+        "date": "05-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-665&action=communique"
     },
     {
         "serial_no": "2",
+        "communique_no": "DP2024-664",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "05-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-664&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2024-663",
         "subject": "DETAILS OF CORPORATE ACTIONS",
         "date": "04-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-663&action=communique"
     },
     {
-        "serial_no": "3",
+        "serial_no": "4",
+        "communique_no": "DP2024-662",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "04-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-662&action=communique"
+    },
+    {
+        "serial_no": "5",
         "communique_no": "DP2024-661",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "31-Oct-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-661&action=communique"
-    },
-    {
-        "serial_no": "4",
-        "communique_no": "DP2024-659",
-        "subject": "INTEGRITY PLEDGE VIGILANCE AWARENESS WEEK",
-        "date": "31-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-659&action=communique"
-    },
-    {
-        "serial_no": "5",
-        "communique_no": "DP2024-658",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "31-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-658&action=communique"
     },
     {
         "serial_no": "6",
@@ -43,30 +43,30 @@
     },
     {
         "serial_no": "7",
+        "communique_no": "DP2024-658",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "31-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-658&action=communique"
+    },
+    {
+        "serial_no": "8",
+        "communique_no": "DP2024-659",
+        "subject": "INTEGRITY PLEDGE VIGILANCE AWARENESS WEEK",
+        "date": "31-Oct-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-659&action=communique"
+    },
+    {
+        "serial_no": "9",
         "communique_no": "DP2024-657",
         "subject": "PAN MODIFICATION AT DP END",
         "date": "30-Oct-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-657&action=communique"
     },
     {
-        "serial_no": "8",
+        "serial_no": "10",
         "communique_no": "DP2024-656",
         "subject": "CHANGE IN TIMING FOR SECURITIES PAY OUT IN THE ACTIVITY SCHEDULE FOR T PLUS 1 ROLLING SETTLEMENT",
         "date": "30-Oct-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-656&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2024-655",
-        "subject": "MULTIPLE SETTLEMENTS ON ACCOUNT OF MUHURAT TRADING",
-        "date": "30-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-655&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2024-652",
-        "subject": "DETAILS OF CORPORATE ACTIONS",
-        "date": "30-Oct-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-652&action=communique"
     }
 ]
