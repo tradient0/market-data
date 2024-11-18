@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2024-696",
-        "subject": "AVAILABILITY OF CDSL SYSTEM",
-        "date": "14-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-696&action=communique"
+        "communique_no": "DP2024-697",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "18-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-697&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2024-694",
-        "subject": "SEBI-CIR-Relaxation Qterly Report Compliance Certificate InvITs",
-        "date": "14-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-694&action=communique"
-    },
-    {
-        "serial_no": "3",
-        "communique_no": "DP2024-695",
-        "subject": "SoPs to guide PEs  register their PE-TM chain binding on the DLT platform",
-        "date": "14-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-695&action=communique"
-    },
-    {
-        "serial_no": "4",
         "communique_no": "DP2024-693",
         "subject": "SEBI-CIR-Relaxation Qterly Report Compliance Certificate REITs",
         "date": "14-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-693&action=communique"
     },
     {
+        "serial_no": "3",
+        "communique_no": "DP2024-696",
+        "subject": "AVAILABILITY OF CDSL SYSTEM",
+        "date": "14-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-696&action=communique"
+    },
+    {
+        "serial_no": "4",
+        "communique_no": "DP2024-694",
+        "subject": "SEBI-CIR-Relaxation Qterly Report Compliance Certificate InvITs",
+        "date": "14-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-694&action=communique"
+    },
+    {
         "serial_no": "5",
+        "communique_no": "DP2024-695",
+        "subject": "SoPs to guide PEs  register their PE-TM chain binding on the DLT platform",
+        "date": "14-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-695&action=communique"
+    },
+    {
+        "serial_no": "6",
         "communique_no": "DP2024-690",
         "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT",
         "date": "14-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-690&action=communique"
     },
     {
-        "serial_no": "6",
+        "serial_no": "7",
         "communique_no": "DP2024-691",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "14-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-691&action=communique"
     },
     {
-        "serial_no": "7",
+        "serial_no": "8",
         "communique_no": "DP2024-692",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "14-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-692&action=communique"
     },
     {
-        "serial_no": "8",
-        "communique_no": "DP2024-688",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "13-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-688&action=communique"
-    },
-    {
         "serial_no": "9",
-        "communique_no": "DP2024-689",
-        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
-        "date": "13-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-689&action=communique"
-    },
-    {
-        "serial_no": "10",
         "communique_no": "DP2024-687",
         "subject": "SEBI CIRCULAR-SIMPLIFIED REGISTRATION FOR FOREIGN PORTFOLIO  INVESTORS",
         "date": "13-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-687&action=communique"
+    },
+    {
+        "serial_no": "10",
+        "communique_no": "DP2024-688",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "13-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-688&action=communique"
     }
 ]
