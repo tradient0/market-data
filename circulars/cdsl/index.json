@@ -1,10 +1,10 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2024-704",
-        "subject": "SEBI CIR-Amendment to Para 15 of Master Circular for CRAs dated May16,2024",
+        "communique_no": "DP2024-705",
+        "subject": "REVISED SETTLEMENT SCHEDULE ON ACCOUNT OF TRADING HOLIDAY ON NOV 20,2024",
         "date": "19-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-704&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-705&action=communique"
     },
     {
         "serial_no": "2",
@@ -15,58 +15,58 @@
     },
     {
         "serial_no": "3",
+        "communique_no": "DP2024-704",
+        "subject": "SEBI CIR-Amendment to Para 15 of Master Circular for CRAs dated May16,2024",
+        "date": "19-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-704&action=communique"
+    },
+    {
+        "serial_no": "4",
         "communique_no": "DP2024-699",
         "subject": "RECORDING OF NON-DISPOSAL UNDERTAKING (NDU)",
         "date": "18-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-699&action=communique"
     },
     {
-        "serial_no": "4",
-        "communique_no": "DP2024-700",
-        "subject": "FATF PUBLIC STATEMENTS AFTER OCTOBER 2024 PLENARY",
-        "date": "18-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-700&action=communique"
-    },
-    {
         "serial_no": "5",
-        "communique_no": "DP2024-702",
-        "subject": "CHANGE IN TRANSACTION DESCRIPTION FOR DIRECT PAYOUT CREDIT ENTRIES",
-        "date": "18-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-702&action=communique"
-    },
-    {
-        "serial_no": "6",
-        "communique_no": "DP2024-701",
-        "subject": "CLARIFICATION ON DESCRIPTION IN TRANSACTION STATEMENT FOR DIRECT PAY-OUT",
-        "date": "18-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-701&action=communique"
-    },
-    {
-        "serial_no": "7",
-        "communique_no": "DP2024-698",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "18-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-698&action=communique"
-    },
-    {
-        "serial_no": "8",
         "communique_no": "DP2024-697",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "18-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-697&action=communique"
     },
     {
+        "serial_no": "6",
+        "communique_no": "DP2024-700",
+        "subject": "FATF PUBLIC STATEMENTS AFTER OCTOBER 2024 PLENARY",
+        "date": "18-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-700&action=communique"
+    },
+    {
+        "serial_no": "7",
+        "communique_no": "DP2024-702",
+        "subject": "CHANGE IN TRANSACTION DESCRIPTION FOR DIRECT PAYOUT CREDIT ENTRIES",
+        "date": "18-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-702&action=communique"
+    },
+    {
+        "serial_no": "8",
+        "communique_no": "DP2024-701",
+        "subject": "CLARIFICATION ON DESCRIPTION IN TRANSACTION STATEMENT FOR DIRECT PAY-OUT",
+        "date": "18-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-701&action=communique"
+    },
+    {
         "serial_no": "9",
-        "communique_no": "DP2024-690",
-        "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT",
-        "date": "14-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-690&action=communique"
+        "communique_no": "DP2024-698",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "18-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-698&action=communique"
     },
     {
         "serial_no": "10",
-        "communique_no": "DP2024-691",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "communique_no": "DP2024-696",
+        "subject": "AVAILABILITY OF CDSL SYSTEM",
         "date": "14-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-691&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-696&action=communique"
     }
 ]
