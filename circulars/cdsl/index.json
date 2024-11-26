@@ -1,31 +1,31 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2024-712",
+        "communique_no": "DP2024-714",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "25-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-712&action=communique"
+        "date": "26-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-714&action=communique"
     },
     {
         "serial_no": "2",
+        "communique_no": "DP2024-715",
+        "subject": "AMENDMENTS TO DP OPERATING INSTRUCTIONS ANNEXURE 11.1",
+        "date": "26-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-715&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2024-713",
         "subject": "SEBI CIR-GUIDELINES TO STOCK EXCHANGES,CLEARING CORPORATIONS AND DEPOSITORIES",
         "date": "25-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-713&action=communique"
     },
     {
-        "serial_no": "3",
-        "communique_no": "DP2024-710",
-        "subject": "CHANGE OF NAME EFFECTED BY DPS",
-        "date": "22-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-710&action=communique"
-    },
-    {
         "serial_no": "4",
-        "communique_no": "DP2024-709",
+        "communique_no": "DP2024-712",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "22-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-709&action=communique"
+        "date": "25-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-712&action=communique"
     },
     {
         "serial_no": "5",
@@ -36,17 +36,17 @@
     },
     {
         "serial_no": "6",
-        "communique_no": "DP2024-706",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "21-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-706&action=communique"
+        "communique_no": "DP2024-709",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "22-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-709&action=communique"
     },
     {
         "serial_no": "7",
-        "communique_no": "DP2024-707",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "21-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-707&action=communique"
+        "communique_no": "DP2024-710",
+        "subject": "CHANGE OF NAME EFFECTED BY DPS",
+        "date": "22-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-710&action=communique"
     },
     {
         "serial_no": "8",
@@ -57,16 +57,16 @@
     },
     {
         "serial_no": "9",
-        "communique_no": "DP2024-704",
-        "subject": "SEBI CIR-Amendment to Para 15 of Master Circular for CRAs dated May16,2024",
-        "date": "19-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-704&action=communique"
+        "communique_no": "DP2024-707",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "21-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-707&action=communique"
     },
     {
         "serial_no": "10",
-        "communique_no": "DP2024-705",
-        "subject": "REVISED SETTLEMENT SCHEDULE ON ACCOUNT OF TRADING HOLIDAY ON NOV 20,2024",
-        "date": "19-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-705&action=communique"
+        "communique_no": "DP2024-706",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "21-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-706&action=communique"
     }
 ]
