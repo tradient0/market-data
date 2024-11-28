@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2024-719",
+        "subject": "REL-ID VERSION",
+        "date": "28-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-719&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2024-720",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "28-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-720&action=communique"
+    },
+    {
+        "serial_no": "3",
+        "communique_no": "DP2024-721",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "28-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-721&action=communique"
+    },
+    {
+        "serial_no": "4",
         "communique_no": "DP2024-717",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "27-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-717&action=communique"
     },
     {
-        "serial_no": "2",
-        "communique_no": "DP2024-716",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "27-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-716&action=communique"
-    },
-    {
-        "serial_no": "3",
+        "serial_no": "5",
         "communique_no": "DP2024-718",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "27-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-718&action=communique"
     },
     {
-        "serial_no": "4",
+        "serial_no": "6",
+        "communique_no": "DP2024-716",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "27-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-716&action=communique"
+    },
+    {
+        "serial_no": "7",
         "communique_no": "DP2024-714",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "26-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-714&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "8",
         "communique_no": "DP2024-715",
         "subject": "AMENDMENTS TO DP OPERATING INSTRUCTIONS ANNEXURE 11.1",
         "date": "26-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-715&action=communique"
     },
     {
-        "serial_no": "6",
-        "communique_no": "DP2024-712",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "25-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-712&action=communique"
-    },
-    {
-        "serial_no": "7",
+        "serial_no": "9",
         "communique_no": "DP2024-713",
         "subject": "SEBI CIR-GUIDELINES TO STOCK EXCHANGES,CLEARING CORPORATIONS AND DEPOSITORIES",
         "date": "25-Nov-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-713&action=communique"
     },
     {
-        "serial_no": "8",
-        "communique_no": "DP2024-710",
-        "subject": "CHANGE OF NAME EFFECTED BY DPS",
-        "date": "22-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-710&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2024-711",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "22-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-711&action=communique"
-    },
-    {
         "serial_no": "10",
-        "communique_no": "DP2024-709",
+        "communique_no": "DP2024-712",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "22-Nov-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-709&action=communique"
+        "date": "25-Nov-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-712&action=communique"
     }
 ]
