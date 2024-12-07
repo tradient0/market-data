@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2024-737",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "06-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-737&action=communique"
-    },
-    {
-        "serial_no": "2",
-        "communique_no": "DP2024-736",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "06-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-736&action=communique"
-    },
-    {
-        "serial_no": "3",
         "communique_no": "DP2024-738",
         "subject": "SUBMISSION OF ANNUAL VAPT REPORT",
         "date": "06-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-738&action=communique"
     },
     {
+        "serial_no": "2",
+        "communique_no": "DP2024-737",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "06-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-737&action=communique"
+    },
+    {
+        "serial_no": "3",
+        "communique_no": "DP2024-739",
+        "subject": "DETAILS OF CORPORATE ACTIONS",
+        "date": "06-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-739&action=communique"
+    },
+    {
         "serial_no": "4",
+        "communique_no": "DP2024-736",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "06-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-736&action=communique"
+    },
+    {
+        "serial_no": "5",
         "communique_no": "DP2024-732",
         "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
         "date": "05-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-732&action=communique"
     },
     {
-        "serial_no": "5",
-        "communique_no": "DP2024-733",
-        "subject": "THE SECURITY COUNCIL ISIL AND AL-QAIDA SANCTIONS COMMITTEE AMENDS ENTRIES",
-        "date": "05-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-733&action=communique"
-    },
-    {
         "serial_no": "6",
-        "communique_no": "DP2024-735",
-        "subject": "DETAILS OF CORPORATE ACTIONS",
-        "date": "05-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-735&action=communique"
-    },
-    {
-        "serial_no": "7",
         "communique_no": "DP2024-734",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "05-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-734&action=communique"
     },
     {
+        "serial_no": "7",
+        "communique_no": "DP2024-733",
+        "subject": "THE SECURITY COUNCIL ISIL AND AL-QAIDA SANCTIONS COMMITTEE AMENDS ENTRIES",
+        "date": "05-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-733&action=communique"
+    },
+    {
         "serial_no": "8",
-        "communique_no": "DP2024-729",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "04-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-729&action=communique"
+        "communique_no": "DP2024-735",
+        "subject": "DETAILS OF CORPORATE ACTIONS",
+        "date": "05-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-735&action=communique"
     },
     {
         "serial_no": "9",
-        "communique_no": "DP2024-730",
-        "subject": "SEBI CIR-MASTER CIRCULAR FOR DEPOSITORIES",
-        "date": "04-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-730&action=communique"
-    },
-    {
-        "serial_no": "10",
         "communique_no": "DP2024-731",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL DPs",
         "date": "04-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-731&action=communique"
+    },
+    {
+        "serial_no": "10",
+        "communique_no": "DP2024-730",
+        "subject": "SEBI CIR-MASTER CIRCULAR FOR DEPOSITORIES",
+        "date": "04-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-730&action=communique"
     }
 ]
