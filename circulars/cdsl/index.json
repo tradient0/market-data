@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2024-763",
+        "subject": "ENTITY ALLOWED TO USE E-KYC AADHAAR AUTHENTICATION SERVICES OF UIDAI",
+        "date": "17-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-763&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2024-762",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "17-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-762&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2024-760",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "16-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-760&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "4",
         "communique_no": "DP2024-761",
         "subject": "SEBI CIR-RELAXATION FROM THE ISIN RESTRICTION LIMIT FOR ISSUERS",
         "date": "16-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-761&action=communique"
     },
     {
-        "serial_no": "3",
-        "communique_no": "DP2024-757",
-        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
-        "date": "13-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-757&action=communique"
-    },
-    {
-        "serial_no": "4",
+        "serial_no": "5",
         "communique_no": "DP2024-759",
         "subject": "TRAINING SCHEDULE FOR CONTINUING PROFESSIONAL EDUCATION PROGRAMME OF NISM",
         "date": "13-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-759&action=communique"
     },
     {
-        "serial_no": "5",
-        "communique_no": "DP2024-758",
-        "subject": "DETAILS OF CORPORATE ACTIONS",
+        "serial_no": "6",
+        "communique_no": "DP2024-757",
+        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
         "date": "13-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-758&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-757&action=communique"
     },
     {
-        "serial_no": "6",
+        "serial_no": "7",
         "communique_no": "DP2024-756",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "13-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-756&action=communique"
     },
     {
-        "serial_no": "7",
-        "communique_no": "DP2024-754",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "12-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-754&action=communique"
+        "serial_no": "8",
+        "communique_no": "DP2024-758",
+        "subject": "DETAILS OF CORPORATE ACTIONS",
+        "date": "13-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-758&action=communique"
     },
     {
-        "serial_no": "8",
+        "serial_no": "9",
         "communique_no": "DP2024-755",
         "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT",
         "date": "12-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-755&action=communique"
     },
     {
-        "serial_no": "9",
-        "communique_no": "DP2024-753",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "12-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-753&action=communique"
-    },
-    {
         "serial_no": "10",
-        "communique_no": "DP2024-751",
-        "subject": "SEBI CIR-ENHANCEMENT IN THE SCOPE OF OPTIONAL T+0 ROLLING SETTLEMENT CYCLE",
-        "date": "11-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-751&action=communique"
+        "communique_no": "DP2024-754",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "12-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-754&action=communique"
     }
 ]
