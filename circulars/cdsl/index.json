@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2024-767",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "19-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-767&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2024-768",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "19-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-768&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2024-766",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "18-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-766&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "4",
         "communique_no": "DP2024-765",
         "subject": "SEBI CIR-MEASURES TO ADDRESS REGULATORY ARBITRAGE WITH RESPECT TO ODIs",
         "date": "18-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-765&action=communique"
     },
     {
-        "serial_no": "3",
+        "serial_no": "5",
         "communique_no": "DP2024-764",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "18-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-764&action=communique"
     },
     {
-        "serial_no": "4",
-        "communique_no": "DP2024-763",
-        "subject": "ENTITY ALLOWED TO USE E-KYC AADHAAR AUTHENTICATION SERVICES OF UIDAI",
-        "date": "17-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-763&action=communique"
-    },
-    {
-        "serial_no": "5",
+        "serial_no": "6",
         "communique_no": "DP2024-762",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "17-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-762&action=communique"
     },
     {
-        "serial_no": "6",
+        "serial_no": "7",
+        "communique_no": "DP2024-763",
+        "subject": "ENTITY ALLOWED TO USE E-KYC AADHAAR AUTHENTICATION SERVICES OF UIDAI",
+        "date": "17-Dec-2024",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-763&action=communique"
+    },
+    {
+        "serial_no": "8",
         "communique_no": "DP2024-761",
         "subject": "SEBI CIR-RELAXATION FROM THE ISIN RESTRICTION LIMIT FOR ISSUERS",
         "date": "16-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-761&action=communique"
     },
     {
-        "serial_no": "7",
+        "serial_no": "9",
         "communique_no": "DP2024-760",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "16-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-760&action=communique"
     },
     {
-        "serial_no": "8",
+        "serial_no": "10",
         "communique_no": "DP2024-756",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "13-Dec-2024",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-756&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2024-758",
-        "subject": "DETAILS OF CORPORATE ACTIONS",
-        "date": "13-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-758&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2024-757",
-        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
-        "date": "13-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-757&action=communique"
     }
 ]
