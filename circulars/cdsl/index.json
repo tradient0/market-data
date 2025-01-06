@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-10",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "06-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-10&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-11",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "06-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-11&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2025-9",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "03-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-9&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "4",
         "communique_no": "DP2025-8",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "03-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-8&action=communique"
     },
     {
-        "serial_no": "3",
-        "communique_no": "DP2025-6",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "02-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-6&action=communique"
-    },
-    {
-        "serial_no": "4",
+        "serial_no": "5",
         "communique_no": "DP2025-7",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "02-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-7&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "6",
+        "communique_no": "DP2025-6",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "02-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-6&action=communique"
+    },
+    {
+        "serial_no": "7",
         "communique_no": "DP2025-1",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "01-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-1&action=communique"
     },
     {
-        "serial_no": "6",
-        "communique_no": "DP2025-2",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "01-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-2&action=communique"
-    },
-    {
-        "serial_no": "7",
-        "communique_no": "DP2025-4",
-        "subject": "SEBI CIR-IMPLEMENTATION OF RECOMMENDATIONS OF THE EXPERT COMMITTEE FOR EASE OF DOING BUSINESS",
-        "date": "01-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-4&action=communique"
-    },
-    {
         "serial_no": "8",
-        "communique_no": "DP2025-5",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "01-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-5&action=communique"
-    },
-    {
-        "serial_no": "9",
         "communique_no": "DP2025-3",
         "subject": "SEBI CIR-CLARIFICATIONS TO CYBERSECURITY AND CYBER RESILIENCE FRAMEWORK FOR SEBI REGULATED ENTITIES",
         "date": "01-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-3&action=communique"
     },
     {
+        "serial_no": "9",
+        "communique_no": "DP2025-2",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "01-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-2&action=communique"
+    },
+    {
         "serial_no": "10",
-        "communique_no": "DP2024-787",
-        "subject": "SEBI CIR- ALLOWING SUBSCRIPTION TO THE ISSUE OF NON-CONVERTIBLE SECURITIES",
-        "date": "31-Dec-2024",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2024-787&action=communique"
+        "communique_no": "DP2025-5",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "01-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-5&action=communique"
     }
 ]
