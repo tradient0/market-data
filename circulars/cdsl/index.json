@@ -1,17 +1,17 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-37",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "15-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-37&action=communique"
+        "communique_no": "DP2025-38",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "16-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-38&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2025-35",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "15-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-35&action=communique"
+        "communique_no": "DP2025-39",
+        "subject": "DP OPERATING INSTRUCTIONS AS OF DECEMBER-2024 CHAPTERS & ANNEXURES",
+        "date": "16-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-39&action=communique"
     },
     {
         "serial_no": "3",
@@ -22,51 +22,51 @@
     },
     {
         "serial_no": "4",
+        "communique_no": "DP2025-35",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "15-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-35&action=communique"
+    },
+    {
+        "serial_no": "5",
+        "communique_no": "DP2025-37",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "15-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-37&action=communique"
+    },
+    {
+        "serial_no": "6",
         "communique_no": "DP2025-34",
         "subject": "VALIDATION OF KYC RECORDS WITH KRA",
         "date": "14-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-34&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "7",
         "communique_no": "DP2025-33",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "14-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-33&action=communique"
     },
     {
-        "serial_no": "6",
-        "communique_no": "DP2025-32",
-        "subject": "SEBI CIR-REVISE AND REVAMP NOMINATION FACILITIES IN THE INDIAN SECURITIES MARKET",
-        "date": "13-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-32&action=communique"
-    },
-    {
-        "serial_no": "7",
-        "communique_no": "DP2025-29",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "13-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-29&action=communique"
-    },
-    {
         "serial_no": "8",
-        "communique_no": "DP2025-30",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "13-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-30&action=communique"
-    },
-    {
-        "serial_no": "9",
         "communique_no": "DP2025-31",
         "subject": "WITHDRAWAL OF DEPOSITORY PARTICIPANT OF CDSL",
         "date": "13-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-31&action=communique"
     },
     {
+        "serial_no": "9",
+        "communique_no": "DP2025-29",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "13-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-29&action=communique"
+    },
+    {
         "serial_no": "10",
-        "communique_no": "DP2025-28",
-        "subject": "INTRODUCTION OF \"PLEDGE HISTORY INQUIRY\" MENU FOR CLOSED PLEDGES/ PLEDGE REJECTION REASON CODES",
-        "date": "11-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-28&action=communique"
+        "communique_no": "DP2025-32",
+        "subject": "SEBI CIR-REVISE AND REVAMP NOMINATION FACILITIES IN THE INDIAN SECURITIES MARKET",
+        "date": "13-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-32&action=communique"
     }
 ]
