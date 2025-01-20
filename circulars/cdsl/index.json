@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-42",
-        "subject": "HARMONIZATION OF FILE FORMATS ACROSS DEPOSITORY",
-        "date": "17-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-42&action=communique"
+        "communique_no": "DP2025-47",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "20-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-47&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2025-41",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "17-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-41&action=communique"
+        "communique_no": "DP2025-48",
+        "subject": "ONLINE FACILITY FOR MANDATORY SUBMISSIONS TO CDSL BY DEPOSITORY PARTICIPANTS",
+        "date": "20-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-48&action=communique"
     },
     {
         "serial_no": "3",
+        "communique_no": "DP2025-45",
+        "subject": "AMENDMENTS TO DP OPERATING INSTRUCTIONS VARIOUS CHAPTERS",
+        "date": "20-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-45&action=communique"
+    },
+    {
+        "serial_no": "4",
+        "communique_no": "DP2025-44",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "20-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-44&action=communique"
+    },
+    {
+        "serial_no": "5",
+        "communique_no": "DP2025-46",
+        "subject": "REPORTING WITH RESPECT TO UNITS HELD IN AGGREGATE ESCROW DEMAT ACCOUNT",
+        "date": "20-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-46&action=communique"
+    },
+    {
+        "serial_no": "6",
+        "communique_no": "DP2025-49",
+        "subject": "SEBI CIR-TIMELINE FOR REVIEW OF ESG RATING PURSUANT TO OCCURRENCE OF MATERIAL EVENTS",
+        "date": "20-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-49&action=communique"
+    },
+    {
+        "serial_no": "7",
         "communique_no": "DP2025-43",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "17-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-43&action=communique"
     },
     {
-        "serial_no": "4",
+        "serial_no": "8",
+        "communique_no": "DP2025-42",
+        "subject": "HARMONIZATION OF FILE FORMATS ACROSS DEPOSITORY",
+        "date": "17-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-42&action=communique"
+    },
+    {
+        "serial_no": "9",
+        "communique_no": "DP2025-41",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "17-Jan-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-41&action=communique"
+    },
+    {
+        "serial_no": "10",
         "communique_no": "DP2025-40",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "17-Jan-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-40&action=communique"
-    },
-    {
-        "serial_no": "5",
-        "communique_no": "DP2025-39",
-        "subject": "DP OPERATING INSTRUCTIONS AS OF DECEMBER-2024 CHAPTERS & ANNEXURES",
-        "date": "16-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-39&action=communique"
-    },
-    {
-        "serial_no": "6",
-        "communique_no": "DP2025-38",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "16-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-38&action=communique"
-    },
-    {
-        "serial_no": "7",
-        "communique_no": "DP2025-37",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "15-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-37&action=communique"
-    },
-    {
-        "serial_no": "8",
-        "communique_no": "DP2025-36",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "15-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-36&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-35",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "15-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-35&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2025-34",
-        "subject": "VALIDATION OF KYC RECORDS WITH KRA",
-        "date": "14-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-34&action=communique"
     }
 ]
