@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-87",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "05-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-87&action=communique"
+        "communique_no": "DP2025-91",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "06-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-91&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2025-89",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "05-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-89&action=communique"
+        "communique_no": "DP2025-92",
+        "subject": "CHANGE OF NAME EFFECTED BY RTA",
+        "date": "06-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-92&action=communique"
     },
     {
         "serial_no": "3",
+        "communique_no": "DP2025-90",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "06-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-90&action=communique"
+    },
+    {
+        "serial_no": "4",
+        "communique_no": "DP2025-94",
+        "subject": "WITHDRAWAL OF DEPOSITORY PARTICIPANT OF CDSL",
+        "date": "06-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-94&action=communique"
+    },
+    {
+        "serial_no": "5",
+        "communique_no": "DP2025-93",
+        "subject": "CDSL FREQUENTLY ASKED QUESTONS",
+        "date": "06-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-93&action=communique"
+    },
+    {
+        "serial_no": "6",
         "communique_no": "DP2025-88",
         "subject": "CHANGE OF NAME EFFECTED BY DP",
         "date": "05-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-88&action=communique"
     },
     {
-        "serial_no": "4",
-        "communique_no": "DP2025-85",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "04-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-85&action=communique"
+        "serial_no": "7",
+        "communique_no": "DP2025-89",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "05-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-89&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "8",
+        "communique_no": "DP2025-87",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "05-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-87&action=communique"
+    },
+    {
+        "serial_no": "9",
         "communique_no": "DP2025-86",
         "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
         "date": "04-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-86&action=communique"
     },
     {
-        "serial_no": "6",
-        "communique_no": "DP2025-84",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "03-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-84&action=communique"
-    },
-    {
-        "serial_no": "7",
-        "communique_no": "DP2025-82",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "01-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-82&action=communique"
-    },
-    {
-        "serial_no": "8",
-        "communique_no": "DP2025-83",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "01-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-83&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-76",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "31-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-76&action=communique"
-    },
-    {
         "serial_no": "10",
-        "communique_no": "DP2025-80",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "31-Jan-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-80&action=communique"
+        "communique_no": "DP2025-85",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "04-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-85&action=communique"
     }
 ]
