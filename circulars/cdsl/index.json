@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-102",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "12-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-102&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-103",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "12-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-103&action=communique"
+    },
+    {
+        "serial_no": "3",
+        "communique_no": "DP2025-104",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "12-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-104&action=communique"
+    },
+    {
+        "serial_no": "4",
         "communique_no": "DP2025-100",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "11-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-100&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "5",
         "communique_no": "DP2025-101",
         "subject": "VALIDATION OF KYC RECORDS WITH KRA",
         "date": "11-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-101&action=communique"
     },
     {
-        "serial_no": "3",
-        "communique_no": "DP2025-98",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "10-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-98&action=communique"
-    },
-    {
-        "serial_no": "4",
-        "communique_no": "DP2025-99",
-        "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT (BSDA)",
-        "date": "10-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-99&action=communique"
-    },
-    {
-        "serial_no": "5",
+        "serial_no": "6",
         "communique_no": "DP2025-97",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "10-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-97&action=communique"
     },
     {
-        "serial_no": "6",
-        "communique_no": "DP2025-96",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "07-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-96&action=communique"
+        "serial_no": "7",
+        "communique_no": "DP2025-99",
+        "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT (BSDA)",
+        "date": "10-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-99&action=communique"
     },
     {
-        "serial_no": "7",
+        "serial_no": "8",
+        "communique_no": "DP2025-98",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "10-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-98&action=communique"
+    },
+    {
+        "serial_no": "9",
         "communique_no": "DP2025-95",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "07-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-95&action=communique"
     },
     {
-        "serial_no": "8",
-        "communique_no": "DP2025-91",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "06-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-91&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-93",
-        "subject": "CDSL FREQUENTLY ASKED QUESTONS",
-        "date": "06-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-93&action=communique"
-    },
-    {
         "serial_no": "10",
-        "communique_no": "DP2025-92",
-        "subject": "CHANGE OF NAME EFFECTED BY RTA",
-        "date": "06-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-92&action=communique"
+        "communique_no": "DP2025-96",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "07-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-96&action=communique"
     }
 ]
