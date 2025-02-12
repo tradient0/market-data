@@ -22,24 +22,24 @@
     },
     {
         "serial_no": "4",
+        "communique_no": "DP2025-105",
+        "subject": "AMENDMENTS TO DP OPERATING INSTRUCTIONS ANNEXURE 11.1",
+        "date": "12-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-105&action=communique"
+    },
+    {
+        "serial_no": "5",
         "communique_no": "DP2025-100",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "11-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-100&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "6",
         "communique_no": "DP2025-101",
         "subject": "VALIDATION OF KYC RECORDS WITH KRA",
         "date": "11-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-101&action=communique"
-    },
-    {
-        "serial_no": "6",
-        "communique_no": "DP2025-97",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "10-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-97&action=communique"
     },
     {
         "serial_no": "7",
@@ -57,10 +57,10 @@
     },
     {
         "serial_no": "9",
-        "communique_no": "DP2025-95",
+        "communique_no": "DP2025-97",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "07-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-95&action=communique"
+        "date": "10-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-97&action=communique"
     },
     {
         "serial_no": "10",
