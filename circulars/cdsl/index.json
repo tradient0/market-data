@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-120",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "18-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-120&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-119",
+        "subject": "CDSL'S DP TRAINING PROGRAMME",
+        "date": "18-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-119&action=communique"
+    },
+    {
+        "serial_no": "3",
+        "communique_no": "DP2025-118",
+        "subject": "WITHDRAWAL OF DEPOSITORY PARTICIPANT OF CDSL",
+        "date": "18-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-118&action=communique"
+    },
+    {
+        "serial_no": "4",
+        "communique_no": "DP2025-117",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "18-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-117&action=communique"
+    },
+    {
+        "serial_no": "5",
         "communique_no": "DP2025-115",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "17-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-115&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "6",
         "communique_no": "DP2025-111",
         "subject": "MULTIPLE SETTLEMENTS ON ACCOUNT OF SETTLEMENT HOLIDAY",
         "date": "17-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-111&action=communique"
     },
     {
-        "serial_no": "3",
+        "serial_no": "7",
         "communique_no": "DP2025-114",
         "subject": "SEBI CIR-REVISED TIMELINES FOR ISSUANCE OF CONSOLIDATED ACCOUNT STATEMENT BY DEPOSITORIES",
         "date": "17-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-114&action=communique"
     },
     {
-        "serial_no": "4",
+        "serial_no": "8",
         "communique_no": "DP2025-112",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "17-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-112&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "9",
         "communique_no": "DP2025-116",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "17-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-116&action=communique"
     },
     {
-        "serial_no": "6",
+        "serial_no": "10",
         "communique_no": "DP2025-113",
         "subject": "SEBI CIR-RELAXATION IN TIMELINES FOR HOLDING AIFS? INVESTMENTS IN DEMATERIALISED FORM",
         "date": "17-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-113&action=communique"
-    },
-    {
-        "serial_no": "7",
-        "communique_no": "DP2025-109",
-        "subject": "DETAILS OF CORPORATE ACTIONS",
-        "date": "14-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-109&action=communique"
-    },
-    {
-        "serial_no": "8",
-        "communique_no": "DP2025-108",
-        "subject": "WITHDRAWAL OF DEPOSITORY PARTICIPANT OF CDSL",
-        "date": "14-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-108&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-107",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "14-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-107&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2025-110",
-        "subject": "DIRECT PAYOUT OF SECURITIES TO CLIENT DEMAT ACCOUNT-PILOT LAUNCH ON 25-FEB-2025",
-        "date": "14-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-110&action=communique"
     }
 ]
