@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-120",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "18-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-120&action=communique"
+        "communique_no": "DP2025-122",
+        "subject": "FILE FORMAT FOR REMAT / RESTAT SET-UP AND REJECTION",
+        "date": "19-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-122&action=communique"
     },
     {
         "serial_no": "2",
+        "communique_no": "DP2025-124",
+        "subject": "PROCEDURE FOR LINKING BENEFICIARY BETWEEN SELLER BO AND BUYER BO",
+        "date": "19-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-124&action=communique"
+    },
+    {
+        "serial_no": "3",
+        "communique_no": "DP2025-121",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "19-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-121&action=communique"
+    },
+    {
+        "serial_no": "4",
+        "communique_no": "DP2025-123",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "19-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-123&action=communique"
+    },
+    {
+        "serial_no": "5",
         "communique_no": "DP2025-119",
         "subject": "CDSL'S DP TRAINING PROGRAMME",
         "date": "18-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-119&action=communique"
     },
     {
-        "serial_no": "3",
+        "serial_no": "6",
         "communique_no": "DP2025-118",
         "subject": "WITHDRAWAL OF DEPOSITORY PARTICIPANT OF CDSL",
         "date": "18-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-118&action=communique"
     },
     {
-        "serial_no": "4",
+        "serial_no": "7",
+        "communique_no": "DP2025-120",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "18-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-120&action=communique"
+    },
+    {
+        "serial_no": "8",
         "communique_no": "DP2025-117",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "18-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-117&action=communique"
     },
     {
-        "serial_no": "5",
-        "communique_no": "DP2025-115",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "17-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-115&action=communique"
-    },
-    {
-        "serial_no": "6",
-        "communique_no": "DP2025-111",
-        "subject": "MULTIPLE SETTLEMENTS ON ACCOUNT OF SETTLEMENT HOLIDAY",
-        "date": "17-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-111&action=communique"
-    },
-    {
-        "serial_no": "7",
+        "serial_no": "9",
         "communique_no": "DP2025-114",
         "subject": "SEBI CIR-REVISED TIMELINES FOR ISSUANCE OF CONSOLIDATED ACCOUNT STATEMENT BY DEPOSITORIES",
         "date": "17-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-114&action=communique"
     },
     {
-        "serial_no": "8",
-        "communique_no": "DP2025-112",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "17-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-112&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-116",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "17-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-116&action=communique"
-    },
-    {
         "serial_no": "10",
-        "communique_no": "DP2025-113",
-        "subject": "SEBI CIR-RELAXATION IN TIMELINES FOR HOLDING AIFS? INVESTMENTS IN DEMATERIALISED FORM",
+        "communique_no": "DP2025-115",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "17-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-113&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-115&action=communique"
     }
 ]
