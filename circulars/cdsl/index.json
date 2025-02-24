@@ -1,45 +1,45 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-130",
-        "subject": "SUBMISSION OF COMPLIANCE OF CLOSURE OF FINDINGS IDENTIFIED DURING VAPT",
-        "date": "21-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-130&action=communique"
+        "communique_no": "DP2025-133",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "24-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-133&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2025-132",
-        "subject": "AMENDMENTS TO DP OPERATING INSTRUCTIONS CHAPTER - 8",
-        "date": "21-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-132&action=communique"
-    },
-    {
-        "serial_no": "3",
         "communique_no": "DP2025-131",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "21-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-131&action=communique"
     },
     {
+        "serial_no": "3",
+        "communique_no": "DP2025-130",
+        "subject": "SUBMISSION OF COMPLIANCE OF CLOSURE OF FINDINGS IDENTIFIED DURING VAPT",
+        "date": "21-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-130&action=communique"
+    },
+    {
         "serial_no": "4",
+        "communique_no": "DP2025-132",
+        "subject": "AMENDMENTS TO DP OPERATING INSTRUCTIONS CHAPTER - 8",
+        "date": "21-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-132&action=communique"
+    },
+    {
+        "serial_no": "5",
         "communique_no": "DP2025-129",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "21-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-129&action=communique"
     },
     {
-        "serial_no": "5",
-        "communique_no": "DP2025-128",
-        "subject": "CREATION OF NEW CORPORATE ACTION TYPES IN CDSL SYSTEM",
-        "date": "20-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-128&action=communique"
-    },
-    {
         "serial_no": "6",
-        "communique_no": "DP2025-125",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "communique_no": "DP2025-127",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "20-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-125&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-127&action=communique"
     },
     {
         "serial_no": "7",
@@ -50,23 +50,23 @@
     },
     {
         "serial_no": "8",
-        "communique_no": "DP2025-127",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "communique_no": "DP2025-128",
+        "subject": "CREATION OF NEW CORPORATE ACTION TYPES IN CDSL SYSTEM",
         "date": "20-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-127&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-128&action=communique"
     },
     {
         "serial_no": "9",
+        "communique_no": "DP2025-125",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "20-Feb-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-125&action=communique"
+    },
+    {
+        "serial_no": "10",
         "communique_no": "DP2025-123",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "19-Feb-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-123&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2025-124",
-        "subject": "PROCEDURE FOR LINKING BENEFICIARY BETWEEN SELLER BO AND BUYER BO",
-        "date": "19-Feb-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-124&action=communique"
     }
 ]
