@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-168",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "11-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-168&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-169",
+        "subject": "TRAINING PROGRAMME FOR COMPLIANCE & PRINCIPAL OFFICERS/DP OFFICIALS & INTERNAL/CONCURRENT AUDITORS",
+        "date": "11-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-169&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2025-167",
         "subject": "CHANGE OF NAME EFFECTED BY DP",
         "date": "10-Mar-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-167&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "4",
         "communique_no": "DP2025-166",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "10-Mar-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-166&action=communique"
     },
     {
-        "serial_no": "3",
+        "serial_no": "5",
         "communique_no": "DP2025-165",
         "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT (BSDA)",
         "date": "10-Mar-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-165&action=communique"
     },
     {
-        "serial_no": "4",
-        "communique_no": "DP2025-164",
-        "subject": "FINNET_2.0 ENROLMENT - FIU-IND NOTIFICATION FOR CORRECTION OF ?RE TYPE? CATEGORY",
-        "date": "10-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-164&action=communique"
-    },
-    {
-        "serial_no": "5",
+        "serial_no": "6",
         "communique_no": "DP2025-163",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "10-Mar-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-163&action=communique"
     },
     {
-        "serial_no": "6",
+        "serial_no": "7",
+        "communique_no": "DP2025-164",
+        "subject": "FINNET_2.0 ENROLMENT - FIU-IND NOTIFICATION FOR CORRECTION OF \"RE TYPE\" CATEGORY",
+        "date": "10-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-164&action=communique"
+    },
+    {
+        "serial_no": "8",
         "communique_no": "DP2025-162",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "07-Mar-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-162&action=communique"
     },
     {
-        "serial_no": "7",
-        "communique_no": "DP2025-161",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "07-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-161&action=communique"
-    },
-    {
-        "serial_no": "8",
+        "serial_no": "9",
         "communique_no": "DP2025-160",
         "subject": "TRAINING SCHEDULE FOR CONTINUING PROFESSIONAL EDUCATION PROGRAMME OF NISM-DEPOSITORY OPERATIONS",
         "date": "07-Mar-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-160&action=communique"
     },
     {
-        "serial_no": "9",
-        "communique_no": "DP2025-156",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "06-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-156&action=communique"
-    },
-    {
         "serial_no": "10",
-        "communique_no": "DP2025-159",
-        "subject": "DISCONTINUATION OF AUTO DO AND DP89 SHORTAGE REPORT FOR NCL MEMBERS",
-        "date": "06-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-159&action=communique"
+        "communique_no": "DP2025-161",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "07-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-161&action=communique"
     }
 ]
