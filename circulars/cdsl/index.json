@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-184",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "20-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-184&action=communique"
+        "communique_no": "DP2025-191",
+        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
+        "date": "21-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-191&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2025-188",
-        "subject": "SEBI CIR-HARNESSING DIGILOCKER AS A DIGITAL PUBLIC INFRASTRUCTURE FOR REDUCING UNCLAIMED ASSETS",
-        "date": "20-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-188&action=communique"
+        "communique_no": "DP2025-192",
+        "subject": "SEBI CIR-DISCLOSURE OF HOLDING OF SPECIFIED SECURITIES IN DEMATERIALIZED FORM",
+        "date": "21-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-192&action=communique"
     },
     {
         "serial_no": "3",
-        "communique_no": "DP2025-185",
-        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
-        "date": "20-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-185&action=communique"
+        "communique_no": "DP2025-190",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "21-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-190&action=communique"
     },
     {
         "serial_no": "4",
-        "communique_no": "DP2025-187",
-        "subject": "SEBI CIRCULAR-FRAMEWORK ON SOCIAL STOCK EXCHANGE",
-        "date": "20-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-187&action=communique"
-    },
-    {
-        "serial_no": "5",
-        "communique_no": "DP2025-186",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "20-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-186&action=communique"
-    },
-    {
-        "serial_no": "6",
         "communique_no": "DP2025-189",
         "subject": "WITHDRAWAL OF REGISTRAR & TRANSFER AGENT OF CDSL",
         "date": "20-Mar-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-189&action=communique"
     },
     {
+        "serial_no": "5",
+        "communique_no": "DP2025-188",
+        "subject": "SEBI CIR-HARNESSING DIGILOCKER AS A DIGITAL PUBLIC INFRASTRUCTURE FOR REDUCING UNCLAIMED ASSETS",
+        "date": "20-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-188&action=communique"
+    },
+    {
+        "serial_no": "6",
+        "communique_no": "DP2025-184",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "20-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-184&action=communique"
+    },
+    {
         "serial_no": "7",
-        "communique_no": "DP2025-183",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "19-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-183&action=communique"
+        "communique_no": "DP2025-185",
+        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
+        "date": "20-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-185&action=communique"
     },
     {
         "serial_no": "8",
-        "communique_no": "DP2025-182",
+        "communique_no": "DP2025-186",
         "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "19-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-182&action=communique"
+        "date": "20-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-186&action=communique"
     },
     {
         "serial_no": "9",
+        "communique_no": "DP2025-187",
+        "subject": "SEBI CIRCULAR-FRAMEWORK ON SOCIAL STOCK EXCHANGE",
+        "date": "20-Mar-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-187&action=communique"
+    },
+    {
+        "serial_no": "10",
         "communique_no": "DP2025-181",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "19-Mar-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-181&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2025-179",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "18-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-179&action=communique"
     }
 ]
