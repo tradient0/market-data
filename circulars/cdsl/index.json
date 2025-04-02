@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-214",
-        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
-        "date": "01-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-214&action=communique"
+        "communique_no": "DP2025-217",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "02-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-217&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2025-212",
-        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
-        "date": "01-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-212&action=communique"
+        "communique_no": "DP2025-220",
+        "subject": "CHANGE OF NAME EFFECTED BY DPS",
+        "date": "02-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-220&action=communique"
     },
     {
         "serial_no": "3",
-        "communique_no": "DP2025-216",
+        "communique_no": "DP2025-219",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "01-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-216&action=communique"
+        "date": "02-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-219&action=communique"
     },
     {
         "serial_no": "4",
-        "communique_no": "DP2025-211",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "01-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-211&action=communique"
+        "communique_no": "DP2025-218",
+        "subject": "SEBI CIR-CLARIFICATION ON THE POSITION OF COMPLIANCE OFFICER IN TERMS OF SEBI REGULATIONS,2015",
+        "date": "02-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-218&action=communique"
     },
     {
         "serial_no": "5",
+        "communique_no": "DP2025-221",
+        "subject": "ONLINE FACILITY FOR MANDATORY SUBMISSIONS TO CDSL BY DEPOSITORY PARTICIPANTS",
+        "date": "02-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-221&action=communique"
+    },
+    {
+        "serial_no": "6",
         "communique_no": "DP2025-213",
         "subject": "SEBI CIR-EXTENSION TOWARDS ADOPTION AND IMPLEMENTATION OF CYBERSECURITY",
         "date": "01-Apr-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-213&action=communique"
     },
     {
-        "serial_no": "6",
-        "communique_no": "DP2025-215",
-        "subject": "SEBI CIR-AMENDMENT TO MASTER CIRCULAR FOR INFRASTRUCTURE INVESTMENT TRUSTS DATED MAY 15, 2024",
-        "date": "01-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-215&action=communique"
-    },
-    {
         "serial_no": "7",
-        "communique_no": "DP2025-209",
-        "subject": "MULTIPLE SETTLEMENTS ON ACCOUNT OF SETTLEMENT HOLIDAY ON TUESDAY, APRIL 01, 2025",
-        "date": "28-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-209&action=communique"
+        "communique_no": "DP2025-211",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "01-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-211&action=communique"
     },
     {
         "serial_no": "8",
-        "communique_no": "DP2025-205",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "28-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-205&action=communique"
+        "communique_no": "DP2025-216",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "01-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-216&action=communique"
     },
     {
         "serial_no": "9",
-        "communique_no": "DP2025-210",
-        "subject": "FACILITY TO FETCH CAS AND TRANSACTION-CUM-HOLDING STATEMENT THROUGH DIGILOCKER PLATFORM",
-        "date": "28-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-210&action=communique"
+        "communique_no": "DP2025-212",
+        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
+        "date": "01-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-212&action=communique"
     },
     {
         "serial_no": "10",
-        "communique_no": "DP2025-208",
-        "subject": "CHANGES IN PLEDGE MASTER REPORT (DP37)",
-        "date": "28-Mar-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-208&action=communique"
+        "communique_no": "DP2025-214",
+        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
+        "date": "01-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-214&action=communique"
     }
 ]
