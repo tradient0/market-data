@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-274",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "25-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-274&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-275",
+        "subject": "ONLINE FACILITY FOR MANDATORY SUBMISSIONS TO CDSL BY DEPOSITORY PARTICIPANTS",
+        "date": "25-Apr-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-275&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2025-273",
         "subject": "CLARIFICATION FOR DESTATEMENTIZATION REQUEST IN ELECTRONIC MODE",
         "date": "25-Apr-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-273&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "4",
         "communique_no": "DP2025-271",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "24-Apr-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-271&action=communique"
     },
     {
-        "serial_no": "3",
+        "serial_no": "5",
         "communique_no": "DP2025-272",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "24-Apr-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-272&action=communique"
     },
     {
-        "serial_no": "4",
+        "serial_no": "6",
         "communique_no": "DP2025-268",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "23-Apr-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-268&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "7",
         "communique_no": "DP2025-270",
         "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
         "date": "23-Apr-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-270&action=communique"
     },
     {
-        "serial_no": "6",
+        "serial_no": "8",
         "communique_no": "DP2025-269",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "23-Apr-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-269&action=communique"
     },
     {
-        "serial_no": "7",
+        "serial_no": "9",
         "communique_no": "DP2025-267",
         "subject": "GUIDELINES FOR FREEZE/UNFREEZE INTIMATIONS NEED TO BE SENT BO ON FREEZING/UNFREEZING DEMAT ACCOUNT",
         "date": "23-Apr-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-267&action=communique"
     },
     {
-        "serial_no": "8",
-        "communique_no": "DP2025-265",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "22-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-265&action=communique"
-    },
-    {
-        "serial_no": "9",
+        "serial_no": "10",
         "communique_no": "DP2025-266",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "22-Apr-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-266&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2025-264",
-        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
-        "date": "21-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-264&action=communique"
     }
 ]
