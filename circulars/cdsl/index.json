@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-292",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "06-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-292&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-293",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "06-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-293&action=communique"
+    },
+    {
+        "serial_no": "3",
+        "communique_no": "DP2025-294",
+        "subject": "SEBI CIR-CLARIFICATIONS TO CYBERSECURITY AND CYBER RESILIENCE FRAMEWORK FOR SEBI REGULATED ENTITIES",
+        "date": "06-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-294&action=communique"
+    },
+    {
+        "serial_no": "4",
         "communique_no": "DP2025-290",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "05-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-290&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "5",
         "communique_no": "DP2025-291",
         "subject": "ANNUAL BILL",
         "date": "05-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-291&action=communique"
     },
     {
-        "serial_no": "3",
-        "communique_no": "DP2025-287",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "02-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-287&action=communique"
-    },
-    {
-        "serial_no": "4",
+        "serial_no": "6",
         "communique_no": "DP2025-285",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "02-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-285&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "7",
         "communique_no": "DP2025-289",
         "subject": "BO UPLOAD FILE FORMAT FOR NOMINATION AND ADDITIONAL CHANGES",
         "date": "02-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-289&action=communique"
     },
     {
-        "serial_no": "6",
+        "serial_no": "8",
         "communique_no": "DP2025-286",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "02-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-286&action=communique"
     },
     {
-        "serial_no": "7",
+        "serial_no": "9",
+        "communique_no": "DP2025-287",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "02-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-287&action=communique"
+    },
+    {
+        "serial_no": "10",
         "communique_no": "DP2025-288",
         "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
         "date": "02-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-288&action=communique"
-    },
-    {
-        "serial_no": "8",
-        "communique_no": "DP2025-281",
-        "subject": "SEBI CIR-EXTENSION OF TIMELINE FOR IMPLEMENTATION T+0 SETTLEMENT FOR QUALIFIED BROKERS",
-        "date": "30-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-281&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-282",
-        "subject": "SEBI CIR- CLARIFICATORY AND PROCEDURAL CHANGES TO AID AND STRENGTHEN ESG RATING PROVIDERS",
-        "date": "30-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-282&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2025-283",
-        "subject": "INSURANCE POLICY FOR SECURITIES",
-        "date": "30-Apr-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-283&action=communique"
     }
 ]
