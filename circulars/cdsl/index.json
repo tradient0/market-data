@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-297",
-        "subject": "ADVISORY FOR CYBER SECURITY PREPAREDNESS",
-        "date": "06-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-297&action=communique"
+        "communique_no": "DP2025-299",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "07-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-299&action=communique"
     },
     {
         "serial_no": "2",
-        "communique_no": "DP2025-298",
-        "subject": "REPORTING OF AI AND ML APPLICATION AND SYSTEM OFFERED AND USED BY MARKET INTERMEDIARIES",
-        "date": "06-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-298&action=communique"
+        "communique_no": "DP2025-300",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "07-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-300&action=communique"
     },
     {
         "serial_no": "3",
-        "communique_no": "DP2025-294",
-        "subject": "SEBI CIR-CLARIFICATIONS TO CYBERSECURITY AND CYBER RESILIENCE FRAMEWORK FOR SEBI REGULATED ENTITIES",
-        "date": "06-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-294&action=communique"
-    },
-    {
-        "serial_no": "4",
         "communique_no": "DP2025-293",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "06-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-293&action=communique"
     },
     {
+        "serial_no": "4",
+        "communique_no": "DP2025-294",
+        "subject": "SEBI CIR-CLARIFICATIONS TO CYBERSECURITY AND CYBER RESILIENCE FRAMEWORK FOR SEBI REGULATED ENTITIES",
+        "date": "06-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-294&action=communique"
+    },
+    {
         "serial_no": "5",
+        "communique_no": "DP2025-297",
+        "subject": "ADVISORY FOR CYBER SECURITY PREPAREDNESS",
+        "date": "06-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-297&action=communique"
+    },
+    {
+        "serial_no": "6",
+        "communique_no": "DP2025-298",
+        "subject": "REPORTING OF AI AND ML APPLICATION AND SYSTEM OFFERED AND USED BY MARKET INTERMEDIARIES",
+        "date": "06-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-298&action=communique"
+    },
+    {
+        "serial_no": "7",
         "communique_no": "DP2025-295",
         "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
         "date": "06-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-295&action=communique"
     },
     {
-        "serial_no": "6",
+        "serial_no": "8",
         "communique_no": "DP2025-296",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "06-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-296&action=communique"
     },
     {
-        "serial_no": "7",
+        "serial_no": "9",
         "communique_no": "DP2025-292",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "06-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-292&action=communique"
     },
     {
-        "serial_no": "8",
+        "serial_no": "10",
         "communique_no": "DP2025-291",
         "subject": "ANNUAL BILL",
         "date": "05-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-291&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-290",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "05-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-290&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2025-287",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "02-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-287&action=communique"
     }
 ]
