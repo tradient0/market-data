@@ -1,24 +1,24 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-308",
-        "subject": "CLOSURE OF DEMAT ACCOUNTS WITH STATUS \"TO BE CLOSED\"",
+        "communique_no": "DP2025-309",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "09-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-308&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-309&action=communique"
     },
     {
         "serial_no": "2",
+        "communique_no": "DP2025-307",
+        "subject": "CENTRALIZED MECHANISM FOR REPORTING THE DEMISE OF AN INVESTOR THROUGH KRAs",
+        "date": "09-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-307&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2025-312",
         "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
         "date": "09-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-312&action=communique"
-    },
-    {
-        "serial_no": "3",
-        "communique_no": "DP2025-306",
-        "subject": "AVAILABILITY OF CDSL SYSTEM",
-        "date": "09-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-306&action=communique"
     },
     {
         "serial_no": "4",
@@ -36,24 +36,24 @@
     },
     {
         "serial_no": "6",
-        "communique_no": "DP2025-309",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "communique_no": "DP2025-313",
+        "subject": "UNDERTAKING ON COMPLIANCE WITH REGULATION 82B RESTRICTION ON ASSOCIATION WITH CERTAIN PERSONS",
         "date": "09-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-309&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-313&action=communique"
     },
     {
         "serial_no": "7",
-        "communique_no": "DP2025-307",
-        "subject": "CENTRALIZED MECHANISM FOR REPORTING THE DEMISE OF AN INVESTOR THROUGH KRAs",
+        "communique_no": "DP2025-308",
+        "subject": "CLOSURE OF DEMAT ACCOUNTS WITH STATUS \"TO BE CLOSED\"",
         "date": "09-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-307&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-308&action=communique"
     },
     {
         "serial_no": "8",
-        "communique_no": "DP2025-302",
-        "subject": "DETAILS OF CORPORATE ACTION",
-        "date": "08-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-302&action=communique"
+        "communique_no": "DP2025-306",
+        "subject": "AVAILABILITY OF CDSL SYSTEM",
+        "date": "09-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-306&action=communique"
     },
     {
         "serial_no": "9",
@@ -64,9 +64,9 @@
     },
     {
         "serial_no": "10",
-        "communique_no": "DP2025-303",
-        "subject": "MULTIPLE SETTLEMENTS ON ACCOUNT OF SETTLEMENT HOLIDAY ON MONDAY, MAY 12, 2025",
+        "communique_no": "DP2025-302",
+        "subject": "DETAILS OF CORPORATE ACTION",
         "date": "08-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-303&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-302&action=communique"
     }
 ]
