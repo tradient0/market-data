@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-338",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "21-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-338&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-340",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "21-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-340&action=communique"
+    },
+    {
+        "serial_no": "3",
+        "communique_no": "DP2025-339",
+        "subject": "WITHDRAWAL OF DEPOSITORY PARTICIPANT OF CDSL",
+        "date": "21-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-339&action=communique"
+    },
+    {
+        "serial_no": "4",
         "communique_no": "DP2025-334",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "20-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-334&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "5",
         "communique_no": "DP2025-337",
         "subject": "SEBI CIR-NORMS FOR INTERNAL AUDIT MECHANISM AND COMPOSITION OF THE AUDIT COMMITTEE OF MIIs",
         "date": "20-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-337&action=communique"
     },
     {
-        "serial_no": "3",
+        "serial_no": "6",
         "communique_no": "DP2025-336",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "20-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-336&action=communique"
     },
     {
-        "serial_no": "4",
+        "serial_no": "7",
         "communique_no": "DP2025-335",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "20-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-335&action=communique"
     },
     {
-        "serial_no": "5",
-        "communique_no": "DP2025-332",
-        "subject": "SEBI CIR-REVIEW OF PROVISIONS PERTAINING TO ELECTRONIC BOOK PROVIDER  PLATFORM",
-        "date": "19-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-332&action=communique"
-    },
-    {
-        "serial_no": "6",
-        "communique_no": "DP2025-333",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "19-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-333&action=communique"
-    },
-    {
-        "serial_no": "7",
+        "serial_no": "8",
         "communique_no": "DP2025-331",
         "subject": "SEBI CIR-EXTENSION OF TIMELINE FOR IMPLEMENTATION OF PROVISIONS OF SEBI CIRCULAR DATED DEC 17,2024",
         "date": "19-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-331&action=communique"
     },
     {
-        "serial_no": "8",
-        "communique_no": "DP2025-327",
-        "subject": "SEBI CIR RATING OF MUNICIPAL BONDS ON THE EXPECTED LOSS BASED RATING SCALE",
-        "date": "16-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-327&action=communique"
-    },
-    {
         "serial_no": "9",
-        "communique_no": "DP2025-328",
+        "communique_no": "DP2025-333",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "16-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-328&action=communique"
+        "date": "19-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-333&action=communique"
     },
     {
         "serial_no": "10",
-        "communique_no": "DP2025-329",
-        "subject": "VALIDATION OF KYC RECORDS WITH KRA",
-        "date": "16-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-329&action=communique"
+        "communique_no": "DP2025-332",
+        "subject": "SEBI CIR-REVIEW OF PROVISIONS PERTAINING TO ELECTRONIC BOOK PROVIDER  PLATFORM",
+        "date": "19-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-332&action=communique"
     }
 ]
