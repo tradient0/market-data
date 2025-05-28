@@ -1,38 +1,38 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-276",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "28-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-276&action=communique"
-    },
-    {
-        "serial_no": "2",
         "communique_no": "DP2025-354",
         "subject": "SEBI CIR-ACCESSIBILITY AND INCLUSIVENESS OF DIGITAL KYC TO PERSONS WITH DISABILITIES",
         "date": "27-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-354&action=communique"
     },
     {
-        "serial_no": "3",
-        "communique_no": "DP2025-352",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "serial_no": "2",
+        "communique_no": "DP2025-353",
+        "subject": "SEBI CIR-PROCESS FOR APPOINTMENT,RE-APPOINTMENT,TERMINATION /ACCEPTANCE OF RESIGNATION SPECIFIC KMPs",
         "date": "27-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-352&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-353&action=communique"
     },
     {
-        "serial_no": "4",
+        "serial_no": "3",
         "communique_no": "DP2025-355",
         "subject": "OPERATING GUIDELINES FOR OPENING OF DEMAT ACCOUNT IN THE NAME OF ASSOCIATION OF PERSONS",
         "date": "27-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-355&action=communique"
     },
     {
-        "serial_no": "5",
-        "communique_no": "DP2025-353",
-        "subject": "SEBI CIR-PROCESS FOR APPOINTMENT,RE-APPOINTMENT,TERMINATION /ACCEPTANCE OF RESIGNATION SPECIFIC KMPs",
+        "serial_no": "4",
+        "communique_no": "DP2025-352",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "27-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-353&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-352&action=communique"
+    },
+    {
+        "serial_no": "5",
+        "communique_no": "DP2025-349",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "26-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-349&action=communique"
     },
     {
         "serial_no": "6",
@@ -50,23 +50,23 @@
     },
     {
         "serial_no": "8",
-        "communique_no": "DP2025-349",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "26-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-349&action=communique"
+        "communique_no": "DP2025-348",
+        "subject": "CHANGES IN PLEDGE MASTER REPORT (DP37)",
+        "date": "23-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-348&action=communique"
     },
     {
         "serial_no": "9",
-        "communique_no": "DP2025-347",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "23-May-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-347&action=communique"
-    },
-    {
-        "serial_no": "10",
         "communique_no": "DP2025-346",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "23-May-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-346&action=communique"
+    },
+    {
+        "serial_no": "10",
+        "communique_no": "DP2025-347",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "23-May-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-347&action=communique"
     }
 ]
