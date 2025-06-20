@@ -1,17 +1,17 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-418",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "20-Jun-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-418&action=communique"
+    },
+    {
+        "serial_no": "2",
         "communique_no": "DP2025-415",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "19-Jun-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-415&action=communique"
-    },
-    {
-        "serial_no": "2",
-        "communique_no": "DP2025-416",
-        "subject": "NEW STATUS AND SUB-STATUS FOR DEMAT ACCOUNTS",
-        "date": "19-Jun-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-416&action=communique"
     },
     {
         "serial_no": "3",
@@ -22,24 +22,24 @@
     },
     {
         "serial_no": "4",
-        "communique_no": "DP2025-412",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "18-Jun-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-412&action=communique"
+        "communique_no": "DP2025-416",
+        "subject": "NEW STATUS AND SUB-STATUS FOR DEMAT ACCOUNTS",
+        "date": "19-Jun-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-416&action=communique"
     },
     {
         "serial_no": "5",
-        "communique_no": "DP2025-414",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "18-Jun-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-414&action=communique"
-    },
-    {
-        "serial_no": "6",
         "communique_no": "DP2025-413",
         "subject": "SECURITY COUNCIL ISIL AND AL-QAIDA SANCTIONS COMMITTEE ADDS ONE ENTRY TO ITS SANCTIONS LIST",
         "date": "18-Jun-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-413&action=communique"
+    },
+    {
+        "serial_no": "6",
+        "communique_no": "DP2025-414",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "18-Jun-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-414&action=communique"
     },
     {
         "serial_no": "7",
@@ -50,23 +50,23 @@
     },
     {
         "serial_no": "8",
+        "communique_no": "DP2025-412",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "18-Jun-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-412&action=communique"
+    },
+    {
+        "serial_no": "9",
         "communique_no": "DP2025-407",
         "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
         "date": "17-Jun-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-407&action=communique"
     },
     {
-        "serial_no": "9",
-        "communique_no": "DP2025-406",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "17-Jun-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-406&action=communique"
-    },
-    {
         "serial_no": "10",
-        "communique_no": "DP2025-409",
-        "subject": "OPENING OF DEMAT ACCOUNTS IN JOINT NAMES WITH AN INDIVIDUAL AND A BODY CORPORATE",
+        "communique_no": "DP2025-408",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "17-Jun-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-409&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-408&action=communique"
     }
 ]
