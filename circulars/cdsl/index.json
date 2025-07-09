@@ -1,10 +1,10 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-455",
+        "communique_no": "DP2025-458",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "08-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-455&action=communique"
+        "date": "09-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-458&action=communique"
     },
     {
         "serial_no": "2",
@@ -15,17 +15,17 @@
     },
     {
         "serial_no": "3",
+        "communique_no": "DP2025-455",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "08-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-455&action=communique"
+    },
+    {
+        "serial_no": "4",
         "communique_no": "DP2025-457",
         "subject": "AVAILABILITY OF CDSL SYSTEM",
         "date": "08-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-457&action=communique"
-    },
-    {
-        "serial_no": "4",
-        "communique_no": "DP2025-453",
-        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
-        "date": "07-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-453&action=communique"
     },
     {
         "serial_no": "5",
@@ -36,17 +36,17 @@
     },
     {
         "serial_no": "6",
+        "communique_no": "DP2025-453",
+        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
+        "date": "07-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-453&action=communique"
+    },
+    {
+        "serial_no": "7",
         "communique_no": "DP2025-454",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "07-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-454&action=communique"
-    },
-    {
-        "serial_no": "7",
-        "communique_no": "DP2025-451",
-        "subject": "CLOSURE CUM SHIFTTING OF DEMAT ACCOUNT",
-        "date": "04-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-451&action=communique"
     },
     {
         "serial_no": "8",
@@ -57,16 +57,16 @@
     },
     {
         "serial_no": "9",
-        "communique_no": "DP2025-449",
-        "subject": "SEBI CIR-EXTENSION TOWARDS ADOPTION AND IMPLEMENTATION OF CSCRF FOR SEBI REGULATED ENTITIES",
-        "date": "03-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-449&action=communique"
+        "communique_no": "DP2025-451",
+        "subject": "CLOSURE CUM SHIFTTING OF DEMAT ACCOUNT",
+        "date": "04-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-451&action=communique"
     },
     {
         "serial_no": "10",
-        "communique_no": "DP2025-448",
-        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
+        "communique_no": "DP2025-447",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "03-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-448&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-447&action=communique"
     }
 ]
