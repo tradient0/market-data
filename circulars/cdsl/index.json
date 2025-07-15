@@ -1,31 +1,31 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-470",
+        "subject": "SEBI CIR-MASTER CIRCULAR FOR CREDIT RATING AGENCIES",
+        "date": "14-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-470&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-469",
+        "subject": "SEBI CIR- MASTER CIRCULAR FOR ESG RATING PROVIDERS (ERPs)",
+        "date": "14-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-469&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2025-468",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "14-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-468&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "4",
         "communique_no": "DP2025-472",
-        "subject": "MASTER CIRCULAR FOR INFRASTRUCTURE INVESTMENT  TRUSTS",
+        "subject": "SEBI CIR- MASTER CIRCULAR FOR INFRASTRUCTURE INVESTMENT TRUSTS",
         "date": "14-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-472&action=communique"
-    },
-    {
-        "serial_no": "3",
-        "communique_no": "DP2025-470",
-        "subject": "MASTER CIRCULAR FOR CREDIT RATING AGENCIES",
-        "date": "14-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-470&action=communique"
-    },
-    {
-        "serial_no": "4",
-        "communique_no": "DP2025-471",
-        "subject": "MASTER CIRCULAR FOR REAL ESTATE INVESTMENT TRUSTS",
-        "date": "14-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-471&action=communique"
     },
     {
         "serial_no": "5",
@@ -36,10 +36,10 @@
     },
     {
         "serial_no": "6",
-        "communique_no": "DP2025-469",
-        "subject": "SEBI CIR- MASTER CIRCULAR FOR ESG RATING PROVIDERS (ERPs)",
+        "communique_no": "DP2025-471",
+        "subject": "SEBI CIR- MASTER CIRCULAR FOR REAL ESTATE INVESTMENT TRUSTS",
         "date": "14-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-469&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-471&action=communique"
     },
     {
         "serial_no": "7",
@@ -64,9 +64,9 @@
     },
     {
         "serial_no": "10",
-        "communique_no": "DP2025-460",
-        "subject": "FATF PUBLIC STATEMENTS AFTER JUNE 2025 PLENARY",
+        "communique_no": "DP2025-459",
+        "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT (BSDA)",
         "date": "10-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-460&action=communique"
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-459&action=communique"
     }
 ]
