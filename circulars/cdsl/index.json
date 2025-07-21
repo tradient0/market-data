@@ -1,38 +1,38 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-482",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "21-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-482&action=communique"
+    },
+    {
+        "serial_no": "2",
         "communique_no": "DP2025-481",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "18-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-481&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "3",
         "communique_no": "DP2025-480",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "18-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-480&action=communique"
     },
     {
-        "serial_no": "3",
+        "serial_no": "4",
         "communique_no": "DP2025-478",
         "subject": "VALIDATION OF KYC RECORDS WITH KRA",
         "date": "17-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-478&action=communique"
     },
     {
-        "serial_no": "4",
+        "serial_no": "5",
         "communique_no": "DP2025-479",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "17-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-479&action=communique"
-    },
-    {
-        "serial_no": "5",
-        "communique_no": "DP2025-477",
-        "subject": "DETAILS OF CORPORATE ACTIONS",
-        "date": "16-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-477&action=communique"
     },
     {
         "serial_no": "6",
@@ -43,10 +43,10 @@
     },
     {
         "serial_no": "7",
-        "communique_no": "DP2025-474",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "15-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-474&action=communique"
+        "communique_no": "DP2025-477",
+        "subject": "DETAILS OF CORPORATE ACTIONS",
+        "date": "16-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-477&action=communique"
     },
     {
         "serial_no": "8",
@@ -64,9 +64,9 @@
     },
     {
         "serial_no": "10",
-        "communique_no": "DP2025-470",
-        "subject": "SEBI CIR-MASTER CIRCULAR FOR CREDIT RATING AGENCIES",
-        "date": "14-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-470&action=communique"
+        "communique_no": "DP2025-474",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "15-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-474&action=communique"
     }
 ]
