@@ -1,24 +1,24 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-489",
-        "subject": "DETAILS OF CORPORATE ACTIONS",
-        "date": "24-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-489&action=communique"
+        "communique_no": "DP2025-494",
+        "subject": "CHANGE OF NAME EFFECTED BY DPS",
+        "date": "25-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-494&action=communique"
     },
     {
         "serial_no": "2",
+        "communique_no": "DP2025-495",
+        "subject": "DETAILS OF CORPORATE ACTION",
+        "date": "25-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-495&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2025-491",
         "subject": "LAUNCH OF SECURITIES MARKET HACKATHON AT GLOBAL FINTECH FEST 2025 (GFF '25)",
         "date": "24-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-491&action=communique"
-    },
-    {
-        "serial_no": "3",
-        "communique_no": "DP2025-492",
-        "subject": "BO UPLOAD FILE FORMAT FOR NOMINATION AND ADDITIONAL CHANGES",
-        "date": "24-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-492&action=communique"
     },
     {
         "serial_no": "4",
@@ -29,17 +29,17 @@
     },
     {
         "serial_no": "5",
-        "communique_no": "DP2025-486",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "23-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-486&action=communique"
+        "communique_no": "DP2025-489",
+        "subject": "DETAILS OF CORPORATE ACTIONS",
+        "date": "24-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-489&action=communique"
     },
     {
         "serial_no": "6",
-        "communique_no": "DP2025-487",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "23-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-487&action=communique"
+        "communique_no": "DP2025-492",
+        "subject": "BO UPLOAD FILE FORMAT FOR NOMINATION AND ADDITIONAL CHANGES",
+        "date": "24-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-492&action=communique"
     },
     {
         "serial_no": "7",
@@ -50,23 +50,23 @@
     },
     {
         "serial_no": "8",
+        "communique_no": "DP2025-487",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "23-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-487&action=communique"
+    },
+    {
+        "serial_no": "9",
+        "communique_no": "DP2025-486",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "23-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-486&action=communique"
+    },
+    {
+        "serial_no": "10",
         "communique_no": "DP2025-485",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "22-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-485&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-484",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "22-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-484&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2025-482",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "21-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-482&action=communique"
     }
 ]
