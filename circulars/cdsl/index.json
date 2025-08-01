@@ -1,31 +1,31 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-512",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "01-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-512&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-514",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "01-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-514&action=communique"
+    },
+    {
+        "serial_no": "3",
+        "communique_no": "DP2025-513",
+        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
+        "date": "01-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-513&action=communique"
+    },
+    {
+        "serial_no": "4",
         "communique_no": "DP2025-509",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
         "date": "31-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-509&action=communique"
-    },
-    {
-        "serial_no": "2",
-        "communique_no": "DP2025-511",
-        "subject": "PAN EXEMPTION CODE",
-        "date": "31-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-511&action=communique"
-    },
-    {
-        "serial_no": "3",
-        "communique_no": "DP2025-510",
-        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
-        "date": "31-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-510&action=communique"
-    },
-    {
-        "serial_no": "4",
-        "communique_no": "DP2025-507",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "31-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-507&action=communique"
     },
     {
         "serial_no": "5",
@@ -36,37 +36,37 @@
     },
     {
         "serial_no": "6",
+        "communique_no": "DP2025-511",
+        "subject": "PAN EXEMPTION CODE",
+        "date": "31-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-511&action=communique"
+    },
+    {
+        "serial_no": "7",
+        "communique_no": "DP2025-507",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "31-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-507&action=communique"
+    },
+    {
+        "serial_no": "8",
+        "communique_no": "DP2025-510",
+        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
+        "date": "31-Jul-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-510&action=communique"
+    },
+    {
+        "serial_no": "9",
         "communique_no": "DP2025-506",
         "subject": "EXTENSION OF TIMELINE FOR IMPLEMENTATION OF PHASE II AND III OF NOMINATION",
         "date": "30-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-506&action=communique"
     },
     {
-        "serial_no": "7",
+        "serial_no": "10",
         "communique_no": "DP2025-505",
         "subject": "SEBI CIR- MONITORING OF MINIMUM INVESTMENT THRESHOLD UNDER SPECIALIZED INVESTMENT FUNDS (SIF)",
         "date": "30-Jul-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-505&action=communique"
-    },
-    {
-        "serial_no": "8",
-        "communique_no": "DP2025-504",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "30-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-504&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-501",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "29-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-501&action=communique"
-    },
-    {
-        "serial_no": "10",
-        "communique_no": "DP2025-503",
-        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
-        "date": "29-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-503&action=communique"
     }
 ]
