@@ -1,72 +1,72 @@
 [
     {
         "serial_no": "1",
-        "communique_no": "DP2025-517",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "04-Aug-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-517&action=communique"
+        "communique_no": "DP2025-519",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "05-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-519&action=communique"
     },
     {
         "serial_no": "2",
+        "communique_no": "DP2025-520",
+        "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
+        "date": "05-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-520&action=communique"
+    },
+    {
+        "serial_no": "3",
+        "communique_no": "DP2025-521",
+        "subject": "AMENDMENTS TO DP OPERATING INSTRUCTIONS CHAPTER - 2",
+        "date": "05-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-521&action=communique"
+    },
+    {
+        "serial_no": "4",
         "communique_no": "DP2025-518",
         "subject": "MARGIN OBLIGATIONS TO BE GIVEN BY WAY OF PLEDGE/RE-PLEDGE",
         "date": "04-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-518&action=communique"
     },
     {
-        "serial_no": "3",
+        "serial_no": "5",
         "communique_no": "DP2025-516",
         "subject": "SEBI CIR-RIGHTS OF PERSONS WITH DISABILITIES ACT,2016 AND RULES MADE THEREUNDER-MANDATORY COMPLIANCE",
         "date": "04-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-516&action=communique"
     },
     {
-        "serial_no": "4",
+        "serial_no": "6",
         "communique_no": "DP2025-515",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "04-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-515&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "7",
+        "communique_no": "DP2025-517",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "04-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-517&action=communique"
+    },
+    {
+        "serial_no": "8",
         "communique_no": "DP2025-513",
         "subject": "WITHDRAWAL OF SECURITIES FROM CDSL",
         "date": "01-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-513&action=communique"
     },
     {
-        "serial_no": "6",
-        "communique_no": "DP2025-514",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "01-Aug-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-514&action=communique"
-    },
-    {
-        "serial_no": "7",
+        "serial_no": "9",
         "communique_no": "DP2025-512",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "01-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-512&action=communique"
     },
     {
-        "serial_no": "8",
-        "communique_no": "DP2025-507",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "31-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-507&action=communique"
-    },
-    {
-        "serial_no": "9",
-        "communique_no": "DP2025-510",
-        "subject": "REVISED SETTLEMENT SCHEDULE FOR TENDER OFFER SETTLEMENTS",
-        "date": "31-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-510&action=communique"
-    },
-    {
         "serial_no": "10",
-        "communique_no": "DP2025-508",
-        "subject": "CHANGE OF NAME EFFECTED BY DP",
-        "date": "31-Jul-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-508&action=communique"
+        "communique_no": "DP2025-514",
+        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
+        "date": "01-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-514&action=communique"
     }
 ]
