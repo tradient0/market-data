@@ -1,66 +1,66 @@
 [
     {
         "serial_no": "1",
+        "communique_no": "DP2025-535",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "11-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-535&action=communique"
+    },
+    {
+        "serial_no": "2",
+        "communique_no": "DP2025-536",
+        "subject": "SEBI CIR-REVIEW OF FRAMEWORK FOR CONVERSION OF PRIVATE  LISTED INVIT INTO PUBLIC INVIT",
+        "date": "11-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-536&action=communique"
+    },
+    {
+        "serial_no": "3",
         "communique_no": "DP2025-534",
         "subject": "FACILITY FOR BASIC SERVICES DEMAT ACCOUNT (BSDA)",
         "date": "09-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-534&action=communique"
     },
     {
-        "serial_no": "2",
+        "serial_no": "4",
         "communique_no": "DP2025-533",
         "subject": "DETAILS OF CORPORATE ACTIONS",
         "date": "08-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-533&action=communique"
     },
     {
-        "serial_no": "3",
-        "communique_no": "DP2025-531",
-        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
-        "date": "08-Aug-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-531&action=communique"
-    },
-    {
-        "serial_no": "4",
+        "serial_no": "5",
         "communique_no": "DP2025-532",
         "subject": "SEBI CIR-REVIEW,APPEAL OR WAIVER OF PENALTY REQUESTS EMANATING OUT OF ACTIONS TAKEN MEMBER COMMITTEE",
         "date": "08-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-532&action=communique"
     },
     {
-        "serial_no": "5",
+        "serial_no": "6",
+        "communique_no": "DP2025-531",
+        "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
+        "date": "08-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-531&action=communique"
+    },
+    {
+        "serial_no": "7",
         "communique_no": "DP2025-528",
         "subject": "DETAILS OF SECURITIES ADMITTED WITH CDSL",
         "date": "07-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-528&action=communique"
     },
     {
-        "serial_no": "6",
-        "communique_no": "DP2025-530",
-        "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "07-Aug-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-530&action=communique"
-    },
-    {
-        "serial_no": "7",
+        "serial_no": "8",
         "communique_no": "DP2025-529",
         "subject": "DETAILS OF CORPORATE ACTION",
         "date": "07-Aug-2025",
         "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-529&action=communique"
     },
     {
-        "serial_no": "8",
-        "communique_no": "DP2025-525",
-        "subject": "NEW URLs FOR API",
-        "date": "06-Aug-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-525&action=communique"
-    },
-    {
         "serial_no": "9",
-        "communique_no": "DP2025-526",
+        "communique_no": "DP2025-530",
         "subject": "DETAILS OF CHANGE OF RTA EFFECTED BY ISSUER",
-        "date": "06-Aug-2025",
-        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-526&action=communique"
+        "date": "07-Aug-2025",
+        "link": "https://www.cdslindia.com/common/DownLoadFile.aspx?eventid=DP2025-530&action=communique"
     },
     {
         "serial_no": "10",
